@@ -90,6 +90,7 @@
 Assets/Scripts/Enemy.cs
 Assets/Scripts/EnemySpawn.cs
 Assets/Scripts/Game.cs
+Assets/Scripts/GameOverMenu.cs
 Assets/Scripts/Interval.cs
 Assets/Scripts/Player.cs
 -r:/opt/Unity/Editor/Data/Mono/lib/mono/unity/System.Runtime.Serialization.dll

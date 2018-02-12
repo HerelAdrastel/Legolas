@@ -21,7 +21,7 @@ public abstract class Game : MonoBehaviour {
 
 	public void GameOver()
 	{
-		Debug.Log("Game Over :(");
+		//Debug.Log("Game Over :(");
 		Gameover = true;
 		//onGameOver();
 	}

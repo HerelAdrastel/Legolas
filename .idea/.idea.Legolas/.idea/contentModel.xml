@@ -17,13 +17,16 @@
           <e p="Enemy.cs" t="Include" />
           <e p="EnemySpawn.cs" t="Include" />
           <e p="Game.cs" t="Include" />
+          <e p="GameOverMenu.cs" t="Include" />
           <e p="Interval.cs" t="Include" />
           <e p="Player.cs" t="Include" />
         </e>
       </e>
       <e p="Legolas.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
-      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
     </e>

@@ -72,7 +72,7 @@ public class Player : Game
 		}
 		
 		// Dies on bot
-		else if (transform.position.y < Bottom + _radius) {
+		else if (transform.position.y < Bottom - _radius) {
 			GameOver();
 		}
 
