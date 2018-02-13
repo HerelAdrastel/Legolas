@@ -15,15 +15,13 @@ public abstract class Game : MonoBehaviour {
 	
 	/**
 	 * 0: Menu
-	 * 1: SetToPlay
-	 * 2: Play
-	 * 3: SetToGameOver
-	 * 4: GameOver
+	 * 1: Play
+	 * 2: GameOver
+	 * 
+	 * We use a global state to be sure that in all the game child, the setToPlay and setToGameover are executed
 	 */
-	private static int _state;
-	
-	
-
+	private static int _globalState;
+	private int _state;
 	
 	/**
 	 * Called during the class creation
@@ -43,40 +41,43 @@ public abstract class Game : MonoBehaviour {
 		else
 			OnGameOver();*/
 
-		switch (_state) {
-			
+		switch (_globalState) {
+		
 			// Menu
 			case 0:
 				OnMenu();
 				if (IsTouched())
-					_state = 1;
+					_globalState = 1;
 				break;
-			
-			// Set To Play
+				
+			// Playing
 			case 1:
-				OnPlay(true);
-				_state = 2;
+				
+				// If set to play
+				if (_state == 0) {
+					OnPlay(true);
+					_state = _globalState;
+				}
+				
+				else
+					OnPlay(false);
 				break;
 			
-			// Play
+			// Game Over
 			case 2:
-				OnPlay(false);
+				
+				// If set to gameover
+				if (_state == 1) {
+					OnGameOver(true);
+					_state = _globalState;
+				}
+				
+				else
+					OnGameOver(false);
 				break;
 			
-			// Set To Gameover
-			case 3:
-				OnGameOver(true);
-				_state = 4;
-				break;
-			
-			// Gameover
-			case 4:
-				OnGameOver(false);
-				break;
-			
-			// Throw exception otherwise
 			default:
-				throw new Exception("The _state variable must be between 0 and 4");
+				throw new Exception("The _globalState variable must be between 0 and 2");
 				
 		}
 	}
@@ -98,8 +99,7 @@ public abstract class Game : MonoBehaviour {
 	}
 
 	public virtual void GameOver() {
-		//_playing = false;
-		_state = 3;
+		_globalState = 2;
 	}
 	
 	
@@ -150,7 +150,7 @@ public abstract class Game : MonoBehaviour {
 	 * Resets the static variables to not been kept during reseting Scene
 	 */
 	public static void ResetStatic() {
-		_state = 0;
+		_globalState = 0;
 		Score = 0;
 	}
 

@@ -41,7 +41,7 @@ public class UI : Game {
 		
 		_highscore = PlayerPrefs.GetInt("highscore", 0);
 
-		//_gamePlayed = PlayerPrefs.GetInt("gameplayed", 0);
+		_gamePlayed = PlayerPrefs.GetInt("gameplayed", 0);
 		_menuInfosText = MenuInfosComponent.GetComponent<Text>();
 		
 		_scoreText = ScoreComponent.GetComponent<Text>();
@@ -89,8 +89,8 @@ public class UI : Game {
 			Debug.Log(_gamePlayed);
 			_gamePlayed++;
 			Debug.Log(_gamePlayed);
-			//PlayerPrefs.SetInt("gameplayed", _gamePlayed);
-			//PlayerPrefs.Save();
+			PlayerPrefs.SetInt("gameplayed", _gamePlayed);
+			PlayerPrefs.Save();
 		}
 	}
 
