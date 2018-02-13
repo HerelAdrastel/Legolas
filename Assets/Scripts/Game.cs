@@ -4,26 +4,45 @@ using UnityEngine;
 
 public abstract class Game : MonoBehaviour {
 
-	protected static bool Gameover = false;
+	private static bool _playing = false;
+
+	protected static int Score;
 	
-	// Use this for initialization
+	/**
+	 * Called during the class creation
+	 * The children classes must override the method and add base.Start at the END of the method
+	 */
 	public virtual void Start () {
 		
 	}
 	
-	// Update is called once per frame
+	/**
+	 * Called every frames
+	 * The children classes must override the method and add base.Start at the END of the method
+	 */
 	public virtual void Update () {
-		if(Gameover)
-			onGameOver();
+		if(_playing)
+			onPlay();
+		else
+			onPause();
 	}
 
-	public abstract void onGameOver();
+	/**
+	 * Called on each frame during the play time
+	 */
+	public abstract void onPlay();
+	
+	/**
+	 * Called on each frame during the gameover time
+	 */
+	public abstract void onPause();
 
-	public void GameOver()
-	{
-		//Debug.Log("Game Over :(");
-		Gameover = true;
-		//onGameOver();
+	public static void Play() {
+		_playing = true;
+	}
+
+	public virtual void GameOver() {
+		_playing = false;
 	}
 	
 	
@@ -55,4 +74,26 @@ public abstract class Game : MonoBehaviour {
 		}
 	}
 
+	public static void PlayParticle(ParticleSystem prefab, Vector3 position) {
+		ParticleSystem particleSystem = Instantiate(prefab, position, Quaternion.identity);
+		
+		Destroy(particleSystem.gameObject, particleSystem.main.startLifetime.constant);
+	}
+
+	
+	/**
+	 * Execute function after few seconds
+	 *
+	 * public void main() {
+	 *	StartCoroutine(waitAndRun())
+	 * }
+	 *
+	 * public IEnumerator waitAndRun() {
+	 *
+	 * 	yield WaitForSeconds(1);
+	 *  blablabla
+	 *
+	 * }
+	 */
+	
 }

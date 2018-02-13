@@ -13,8 +13,10 @@ public class EnemySpawn : Game
 	private Interval _interval;
 
 	// Use this for initialization
-	public void Start () {
+	public override void Start () {
 		_interval = new Interval(SpawnEnemy, Interval);
+		
+		base.Start();
 	}
 	
 	// Update is called once per frame
@@ -23,7 +25,11 @@ public class EnemySpawn : Game
 		_interval.Update(Time.deltaTime);
 	}
 
-	public override void onGameOver() {
+	public override void onPlay() {
+		_interval.Play();
+	}
+
+	public override void onPause() {
 		_interval.Pause();
 	}
 

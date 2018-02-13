@@ -13,10 +13,11 @@ public class Enemy : Game
 	private BoxCollider2D _collider;
 	
 	// Use this for initialization
-	public void Start ()
-	{
+	public override void Start () {	
 		_rigidbody = GetComponent<Rigidbody2D>();
 		_collider = GetComponent<BoxCollider2D>();
+		
+		base.Start();
 	}
 	
 	// Update is called once per frame
@@ -31,7 +32,11 @@ public class Enemy : Game
 		_rigidbody.angularVelocity = AngularVelocity;
 	}
 
-	public override void onGameOver() {
+	public override void onPlay() {
+		
+	}
+
+	public override void onPause() {
 		Destroy(gameObject);
 	}
 }

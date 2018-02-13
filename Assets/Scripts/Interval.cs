@@ -11,7 +11,7 @@ public class Interval {
 	
 	private OnUpdate _listener;
 
-	private bool _canUpdate = true;
+	private bool _canUpdate;
 	
 	// Use this for initialization
 	public Interval(OnUpdate listener, float interval) {
@@ -35,6 +35,10 @@ public class Interval {
 		_listener(iterations);
 		_stack = 0;
 
+	}
+
+	public void Play() {
+		_canUpdate = true;
 	}
 
 	public void Pause() {

@@ -9,7 +9,12 @@ public class Player : Game
 
 	public float Velocity;
 	public float Force;
+	
+	// The ScoreComponent shown during playing
 	public Transform ScoreComponent;
+	
+	public ParticleSystem PlayerDeath;
+	private bool _canPlayParticle = false;
 	
 
 	private Rigidbody2D _rigidbody;
@@ -23,11 +28,9 @@ public class Player : Game
 
 	private float _radius;
 
-	private int _score;
 
 	// Use this for initialization
-	public void Start () {
-
+	public override void Start () {
 		_rigidbody = GetComponent<Rigidbody2D>();
 		_collider = GetComponent<CircleCollider2D>();
 		_scoreText = ScoreComponent.GetComponent<Text>();
@@ -37,7 +40,7 @@ public class Player : Game
 
 		_radius = _collider.bounds.size.x / 2;
 	
-
+		base.Start();
 	}
 	// Update is called once per frame
 	public override void Update () {
@@ -85,9 +88,22 @@ public class Player : Game
 
 	}
 
-	public override void onGameOver() {
-		_rigidbody.constraints = RigidbodyConstraints2D.FreezeAll;
+
+	public override void onPlay() {
+		_rigidbody.constraints = RigidbodyConstraints2D.None;
+		_canPlayParticle = true;
 	}
+
+	public override void onPause() {
+		_rigidbody.constraints = RigidbodyConstraints2D.FreezeAll;
+		
+		if(_canPlayParticle)
+			PlayParticle(PlayerDeath, transform.position);
+
+		_canPlayParticle = false;
+	}
+
+	
 
 	/**
 	 * Return true if the space bar is pressed or the screen is touched
@@ -109,8 +125,8 @@ public class Player : Game
 
 	public void IncreaseScore()
 	{
-		_score++;
-		_scoreText.text = _score.ToString();
+		Score++;
+		_scoreText.text = Score.ToString();
 	}
 
 	public void OnTriggerEnter2D(Collider2D other)
