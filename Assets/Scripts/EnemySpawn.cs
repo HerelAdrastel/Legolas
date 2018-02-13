@@ -25,11 +25,15 @@ public class EnemySpawn : Game
 		_interval.Update(Time.deltaTime);
 	}
 
-	public override void onPlay() {
+	public override void OnMenu() {
+		_interval.Pause();
+	}
+
+	public override void OnPlay(bool setToPlay) {
 		_interval.Play();
 	}
 
-	public override void onPause() {
+	public override void OnGameOver(bool setToGameOver) {
 		_interval.Pause();
 	}
 

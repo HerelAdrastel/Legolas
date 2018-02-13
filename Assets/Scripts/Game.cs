@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public abstract class Game : MonoBehaviour {
@@ -7,6 +8,16 @@ public abstract class Game : MonoBehaviour {
 	private static bool _playing = false;
 
 	protected static int Score;
+
+	
+	/**
+	 * 0: Menu
+	 * 1: SetToPlay
+	 * 2: Play
+	 * 3: SetToGameOver
+	 * 4: GameOver
+	 */
+	private static int _state = 0;
 	
 	/**
 	 * Called during the class creation
@@ -21,28 +32,64 @@ public abstract class Game : MonoBehaviour {
 	 * The children classes must override the method and add base.Start at the END of the method
 	 */
 	public virtual void Update () {
-		if(_playing)
-			onPlay();
+		/*if(_playing)
+			OnPlay();
 		else
-			onPause();
+			OnGameOver();*/
+
+		switch (_state) {
+			
+			// Menu
+			case 0:
+				OnMenu();
+				if (IsTouched())
+					_state = 1;
+				break;
+			
+			// Set To Play
+			case 1:
+				OnPlay(true);
+				_state = 2;
+				break;
+			
+			// Play
+			case 2:
+				OnPlay(false);
+				break;
+			
+			// Set To Gameover
+			case 3:
+				OnGameOver(true);
+				_state = 4;
+				break;
+			
+			// Gameover
+			case 4:
+				OnGameOver(false);
+				break;
+				
+		}
 	}
 
+
+	public abstract void OnMenu();
 	/**
 	 * Called on each frame during the play time
 	 */
-	public abstract void onPlay();
+	public abstract void OnPlay(bool setToPlay);
 	
 	/**
 	 * Called on each frame during the gameover time
 	 */
-	public abstract void onPause();
+	public abstract void OnGameOver(bool setToGameOver);
 
 	public static void Play() {
-		_playing = true;
+		//_playing = true;
 	}
 
 	public virtual void GameOver() {
-		_playing = false;
+		//_playing = false;
+		_state = 3;
 	}
 	
 	
@@ -78,6 +125,14 @@ public abstract class Game : MonoBehaviour {
 		ParticleSystem particleSystem = Instantiate(prefab, position, Quaternion.identity);
 		
 		Destroy(particleSystem.gameObject, particleSystem.main.startLifetime.constant);
+	}
+	
+	/**
+	 * Return true if the space bar is pressed or the screen is touched
+	 */
+	public static bool IsTouched()
+	{
+		return Input.GetKeyDown(KeyCode.Space) || Input.touches.Any(touch => touch.phase == TouchPhase.Began);
 	}
 
 	

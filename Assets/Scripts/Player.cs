@@ -88,31 +88,21 @@ public class Player : Game
 
 	}
 
-
-	public override void onPlay() {
-		_rigidbody.constraints = RigidbodyConstraints2D.None;
-		_canPlayParticle = true;
+	// todo: ajouter conditions setToPlay
+	public override void OnMenu() {
+		_rigidbody.constraints = RigidbodyConstraints2D.FreezeAll;
 	}
 
-	public override void onPause() {
+	public override void OnPlay(bool setToPlay) {
+		_rigidbody.constraints = RigidbodyConstraints2D.None;
+	}
+
+	public override void OnGameOver(bool setToGameOver) {
 		_rigidbody.constraints = RigidbodyConstraints2D.FreezeAll;
 		
-		if(_canPlayParticle)
+		if(setToGameOver)
 			PlayParticle(PlayerDeath, transform.position);
-
-		_canPlayParticle = false;
 	}
-
-	
-
-	/**
-	 * Return true if the space bar is pressed or the screen is touched
-	 */
-	public static bool IsTouched()
-	{
-		return Input.GetKeyDown(KeyCode.Space) || Input.touches.Any(touch => touch.phase == TouchPhase.Began);
-	}
-
 
 	public void Jump()
 	{

@@ -32,11 +32,15 @@ public class Enemy : Game
 		_rigidbody.angularVelocity = AngularVelocity;
 	}
 
-	public override void onPlay() {
+	public override void OnMenu() {
 		
 	}
 
-	public override void onPause() {
+	public override void OnPlay(bool setToPlay) {
+		
+	}
+
+	public override void OnGameOver(bool setToGameOver) {
 		Destroy(gameObject);
 	}
 }

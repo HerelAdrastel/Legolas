@@ -19,7 +19,9 @@ public class Interval {
 		_interval = interval;
 
 		iterations = 0;
-		_listener(iterations);
+		
+		if(_canUpdate)
+			_listener(iterations);
 	}
 
 	public void Update(float deltaTime) {

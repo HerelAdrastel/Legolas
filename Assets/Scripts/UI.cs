@@ -2,15 +2,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class GameOverMenu : Game {
+public class UI : Game {
 
 	/**
 	 * All the gameover items which are hidden and shown
 	 */
-	public GameObject[] ToShow;
-	public GameObject ToHide;
+	public GameObject[] MenuItems;
+	public GameObject PlayItem;
+	public GameObject[] GameOverItems;
 	
 	private static int _highscore;
 
@@ -34,27 +36,62 @@ public class GameOverMenu : Game {
 		_highscoreText = HighscoreComponent.GetComponent<Text>();
 	}
 
-	public override void onPlay() {
+	
+	// todo: ajouter conditions
+	
+	/**
+	 * Shows Menu items and hides the rest
+	 */
+	public override void OnMenu() {
+
+		// Shows start menu
+		foreach (GameObject item in MenuItems)
+			item.SetActive(true);
 		
-		foreach (GameObject item in ToShow) {
+		// Hides play menu
+		PlayItem.SetActive(false);
+		
+		// Hides gameover menu
+		foreach (GameObject item in GameOverItems)
 			item.SetActive(false);
-		}
-		ToHide.SetActive(true);
 	}
 
-	public override void onPause() {
+	
+	/**
+	 * Hide Start Menu item and show play menu
+	 */
+	public override void OnPlay(bool setToPlay) {
+		
+		// Start Hide menu
+		foreach (GameObject item in MenuItems)
+			item.SetActive(false);
+		
+		// Shows play menu
+		PlayItem.SetActive(true);
+	}
 
+	
+	/**
+	 * Update the Score Infos, Hide the play menu and shows the gameover menu
+	 */
+	public override void OnGameOver(bool setToGameOver) {
 		UpdateScoreInfos();
 		
-		foreach (GameObject item in ToShow) {
+		PlayItem.SetActive(false);
+		
+		foreach (GameObject item in GameOverItems)
 			item.SetActive(true);
-		}
-		ToHide.SetActive(false);
+		
 	}
 	
+	
+	/**
+	 * Restars scene
+	 * 
+	 */
 	// ReSharper disable once UnusedMember.Global
 	public void OnRetryClick() {
-		Play();
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 	}
 
 	public void UpdateScoreInfos() {
