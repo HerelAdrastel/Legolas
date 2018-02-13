@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Diagnostics.CodeAnalysis;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -17,7 +18,12 @@ public class UI : Game {
 	
 	private static int _highscore;
 	private static int _gamePlayed;
-
+	
+	
+	/**
+	 * Canvas components
+	 */
+	private RectTransform _canvasTransform;	
 	
 	/**
 	 * The Menu components
@@ -40,6 +46,8 @@ public class UI : Game {
 		base.Start();
 		
 		_highscore = PlayerPrefs.GetInt("highscore", 0);
+
+		_canvasTransform = GetComponent<RectTransform>();
 
 		_gamePlayed = PlayerPrefs.GetInt("gameplayed", 0);
 		_menuInfosText = MenuInfosComponent.GetComponent<Text>();
@@ -105,7 +113,15 @@ public class UI : Game {
 		
 		foreach (GameObject item in GameOverItems)
 			item.SetActive(true);
-		
+
+		if (setToGameOver) {
+			StartCoroutine(SlideLeftIn(GameOverItems[0], 0.5f, 0));
+			StartCoroutine(SlideLeftIn(GameOverItems[1], 0.5f, 0.25f));
+			StartCoroutine(SlideLeftIn(GameOverItems[2], 0.5f, 0.5f));
+			StartCoroutine(SlideLeftIn(GameOverItems[3], 0.5f, 0.75f));
+			StartCoroutine(SlideLeftIn(GameOverItems[4], 0.5f, 1));
+
+		}
 	}
 	
 	
@@ -168,5 +184,28 @@ public class UI : Game {
 		// Display score and highscore
 		_scoreText.text = Score.ToString();
 		_highscoreText.text = _highscore.ToString();
+	}
+
+	public IEnumerator SlideLeftIn(GameObject component, float duration, float startAfter) {
+
+		RectTransform rect = component.GetComponent<RectTransform>();
+
+		float offset = _canvasTransform.rect.width / 2 + component.GetComponent<RectTransform>().rect.width / 2;
+
+		float from = component.transform.position.x + offset;
+		
+		//Vector3 position =  new Vector3(from, component.transform.position.y, component.transform.position.z);
+		rect.anchoredPosition = new Vector2(offset, rect.anchoredPosition.y);
+		//Debug.Log(Camera.main.WorldToScreenPoint(position));
+		
+		yield return new WaitForSeconds(startAfter);
+		
+		for (float i = 0; i < duration; i += Time.deltaTime) {
+			float x = from - offset * i / duration;
+			//component.transform.position = new Vector3(x, component.transform.position.y, component.transform.position.z);
+			rect.anchoredPosition = new Vector2(x, rect.anchoredPosition.y);
+			yield return null;
+		}
+
 	}
 }
