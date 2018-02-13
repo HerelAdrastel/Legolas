@@ -1,10 +1,11 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+[SuppressMessage("ReSharper", "UnusedMember.Global")]
+[SuppressMessage("ReSharper", "InconsistentNaming")]
 public class UI : Game {
 
 	/**
@@ -15,10 +16,18 @@ public class UI : Game {
 	public GameObject[] GameOverItems;
 	
 	private static int _highscore;
+	private static int _gamePlayed;
 
 	
 	/**
-	 * The ScoreComponent shown during GameOver
+	 * The Menu components
+	 */
+	public Transform MenuInfosComponent;
+
+	private Text _menuInfosText;
+	
+	/**
+	 * The Gameover components
 	 */
 	public Transform ScoreComponent;
 	public Transform HighscoreComponent;
@@ -32,6 +41,9 @@ public class UI : Game {
 		
 		_highscore = PlayerPrefs.GetInt("highscore", 0);
 
+		//_gamePlayed = PlayerPrefs.GetInt("gameplayed", 0);
+		_menuInfosText = MenuInfosComponent.GetComponent<Text>();
+		
 		_scoreText = ScoreComponent.GetComponent<Text>();
 		_highscoreText = HighscoreComponent.GetComponent<Text>();
 	}
@@ -43,6 +55,7 @@ public class UI : Game {
 	 * Shows Menu items and hides the rest
 	 */
 	public override void OnMenu() {
+		UpdateMenuInfos();
 
 		// Shows start menu
 		foreach (GameObject item in MenuItems)
@@ -68,6 +81,17 @@ public class UI : Game {
 		
 		// Shows play menu
 		PlayItem.SetActive(true);
+		
+		Debug.Log(setToPlay);
+		
+		// Adds 1 to gamePlayed
+		if (setToPlay) {
+			Debug.Log(_gamePlayed);
+			_gamePlayed++;
+			Debug.Log(_gamePlayed);
+			//PlayerPrefs.SetInt("gameplayed", _gamePlayed);
+			//PlayerPrefs.Save();
+		}
 	}
 
 	
@@ -89,11 +113,48 @@ public class UI : Game {
 	 * Restars scene
 	 * 
 	 */
-	// ReSharper disable once UnusedMember.Global
 	public void OnRetryClick() {
+		ResetStatic();
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 	}
 
+	
+	/**
+	 * Share score
+	 */
+	
+	// todo ; ça ne marche pas, resoudre le bug !
+	public void OnShareClick() {
+
+		#if UNITY_ANDROID
+		string text = String.Format(
+			"Wow! I got {0} points on {1}, can you beat me ?\nDownload on http://bit.ly/RexalAndroid", 
+			Score, Name
+		);
+
+		
+		AndroidJavaClass intentClass = new AndroidJavaClass ("android.content.Intent");
+		AndroidJavaObject intentObject = new AndroidJavaObject ("android.content.Intent");
+		intentObject.Call<AndroidJavaObject>("setAction", intentClass.GetStatic<string>("ACTION_SEND"));
+		intentObject.Call<AndroidJavaObject>("setType", "text/plain");
+		intentObject.Call<AndroidJavaObject>("putExtra", intentClass.GetStatic<string>("EXTRA_TEXT"), text);
+		AndroidJavaClass unity = new AndroidJavaClass ("com.unity3d.player.UnityPlayer");
+		AndroidJavaObject currentActivity = unity.GetStatic<AndroidJavaObject>("currentActivity");
+		currentActivity.Call ("startActivity", intentObject);
+		#endif
+	}
+
+	/**
+	 * Updates Start menu infos
+	 */
+	public void UpdateMenuInfos() {
+		_menuInfosText.text = string.Format("HIGHSCORE: {0}\nGAMES PLAYED: {1}", _highscore, _gamePlayed);
+	}
+
+	
+	/**
+	 * Updates Gameover score infos
+	 */
 	public void UpdateScoreInfos() {
 
 		if (Score > _highscore) {

@@ -14,8 +14,7 @@ public class Player : Game
 	public Transform ScoreComponent;
 	
 	public ParticleSystem PlayerDeath;
-	private bool _canPlayParticle = false;
-	
+
 
 	private Rigidbody2D _rigidbody;
 	private CircleCollider2D _collider;
@@ -42,6 +41,7 @@ public class Player : Game
 	
 		base.Start();
 	}
+	
 	// Update is called once per frame
 	public override void Update () {
 		base.Update();
@@ -102,6 +102,8 @@ public class Player : Game
 		
 		if(setToGameOver)
 			PlayParticle(PlayerDeath, transform.position);
+		
+		Destroy(gameObject);
 	}
 
 	public void Jump()

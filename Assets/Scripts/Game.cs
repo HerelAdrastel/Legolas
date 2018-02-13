@@ -1,14 +1,17 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using Random = UnityEngine.Random;
 
 public abstract class Game : MonoBehaviour {
 
-	private static bool _playing = false;
-
 	protected static int Score;
 
+
+	public static string Name {
+		get { return SceneManager.GetActiveScene().name; }
+	}
 	
 	/**
 	 * 0: Menu
@@ -17,14 +20,17 @@ public abstract class Game : MonoBehaviour {
 	 * 3: SetToGameOver
 	 * 4: GameOver
 	 */
-	private static int _state = 0;
+	private static int _state;
+	
+	
+
 	
 	/**
 	 * Called during the class creation
 	 * The children classes must override the method and add base.Start at the END of the method
 	 */
 	public virtual void Start () {
-		
+
 	}
 	
 	/**
@@ -67,6 +73,10 @@ public abstract class Game : MonoBehaviour {
 			case 4:
 				OnGameOver(false);
 				break;
+			
+			// Throw exception otherwise
+			default:
+				throw new Exception("The _state variable must be between 0 and 4");
 				
 		}
 	}
@@ -133,6 +143,15 @@ public abstract class Game : MonoBehaviour {
 	public static bool IsTouched()
 	{
 		return Input.GetKeyDown(KeyCode.Space) || Input.touches.Any(touch => touch.phase == TouchPhase.Began);
+	}
+	
+	
+	/**
+	 * Resets the static variables to not been kept during reseting Scene
+	 */
+	public static void ResetStatic() {
+		_state = 0;
+		Score = 0;
 	}
 
 	
