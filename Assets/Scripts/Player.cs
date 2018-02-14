@@ -89,7 +89,7 @@ public class Player : Game
 	}
 
 	// todo: ajouter conditions setToPlay
-	public override void OnMenu() {
+	public override void OnMenu(bool setToMenu) {
 		_rigidbody.constraints = RigidbodyConstraints2D.FreezeAll;
 	}
 

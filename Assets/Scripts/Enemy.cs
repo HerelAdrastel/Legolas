@@ -32,7 +32,7 @@ public class Enemy : Game
 		_rigidbody.angularVelocity = AngularVelocity;
 	}
 
-	public override void OnMenu() {
+	public override void OnMenu(bool setToMenu) {
 		
 	}
 

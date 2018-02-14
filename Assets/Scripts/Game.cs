@@ -21,7 +21,7 @@ public abstract class Game : MonoBehaviour {
 	 * We use a global state to be sure that in all the game child, the setToPlay and setToGameover are executed
 	 */
 	private static int _globalState;
-	private int _state;
+	private int _state = -1;
 	
 	/**
 	 * Called during the class creation
@@ -45,7 +45,15 @@ public abstract class Game : MonoBehaviour {
 		
 			// Menu
 			case 0:
-				OnMenu();
+
+				if (_state == -1) {
+					OnMenu(true);
+					_state = _globalState;
+				}
+				
+				else
+					OnMenu(false);
+				
 				if (IsTouched())
 					_globalState = 1;
 				break;
@@ -83,7 +91,7 @@ public abstract class Game : MonoBehaviour {
 	}
 
 
-	public abstract void OnMenu();
+	public abstract void OnMenu(bool setToMenu);
 	/**
 	 * Called on each frame during the play time
 	 */

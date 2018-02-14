@@ -25,7 +25,7 @@ public class EnemySpawn : Game
 		_interval.Update(Time.deltaTime);
 	}
 
-	public override void OnMenu() {
+	public override void OnMenu(bool setToMenu) {
 		_interval.Pause();
 	}
 

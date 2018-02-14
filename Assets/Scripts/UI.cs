@@ -62,19 +62,32 @@ public class UI : Game {
 	/**
 	 * Shows Menu items and hides the rest
 	 */
-	public override void OnMenu() {
+	public override void OnMenu(bool setToMenu) {
+		
+		// Execute the next lines only once
+		if (!setToMenu) return;
+		
 		UpdateMenuInfos();
 
 		// Shows start menu
 		foreach (GameObject item in MenuItems)
 			item.SetActive(true);
-		
+
 		// Hides play menu
 		PlayItem.SetActive(false);
-		
+
 		// Hides gameover menu
 		foreach (GameObject item in GameOverItems)
 			item.SetActive(false);
+		
+		// Check the length before animation
+		if(MenuItems.Length != 3)
+			throw new Exception("MenuItems must contain 3 elements");
+
+		StartCoroutine(SlideBottom(MenuItems[0], 1, 0));
+		StartCoroutine(Blink(MenuItems[1]));
+		StartCoroutine(SlideTop(MenuItems[2], 1, 0));
+
 	}
 
 	
@@ -83,23 +96,21 @@ public class UI : Game {
 	 */
 	public override void OnPlay(bool setToPlay) {
 		
+		// Execute the next lines only once
+		if (!setToPlay) return;
+		
 		// Start Hide menu
 		foreach (GameObject item in MenuItems)
 			item.SetActive(false);
 		
 		// Shows play menu
 		PlayItem.SetActive(true);
-		
-		Debug.Log(setToPlay);
-		
+			
+			
 		// Adds 1 to gamePlayed
-		if (setToPlay) {
-			Debug.Log(_gamePlayed);
-			_gamePlayed++;
-			Debug.Log(_gamePlayed);
-			PlayerPrefs.SetInt("gameplayed", _gamePlayed);
-			PlayerPrefs.Save();
-		}
+		_gamePlayed++;
+		PlayerPrefs.SetInt("gameplayed", _gamePlayed);
+		PlayerPrefs.Save();
 	}
 
 	
@@ -107,6 +118,10 @@ public class UI : Game {
 	 * Update the Score Infos, Hide the play menu and shows the gameover menu
 	 */
 	public override void OnGameOver(bool setToGameOver) {
+		
+		// Execute the next lines only onces
+		if (!setToGameOver) return;
+		
 		UpdateScoreInfos();
 		
 		PlayItem.SetActive(false);
@@ -114,13 +129,13 @@ public class UI : Game {
 		foreach (GameObject item in GameOverItems)
 			item.SetActive(true);
 
-		if (setToGameOver) {
-			StartCoroutine(SlideLeftIn(GameOverItems[0], 0.5f, 0));
-			StartCoroutine(SlideLeftIn(GameOverItems[1], 0.5f, 0.25f));
-			StartCoroutine(SlideLeftIn(GameOverItems[2], 0.5f, 0.5f));
-			StartCoroutine(SlideLeftIn(GameOverItems[3], 0.5f, 0.75f));
-			StartCoroutine(SlideLeftIn(GameOverItems[4], 0.5f, 1));
+		float duration = 2.5f / GameOverItems.Length;
+		float startAfter = 0;
 
+		for (int i = 0; i < GameOverItems.Length; i++) {
+
+			StartCoroutine(SlideLeft(GameOverItems[i], duration, startAfter));
+			startAfter += duration / 2;
 		}
 	}
 	
@@ -186,26 +201,111 @@ public class UI : Game {
 		_highscoreText.text = _highscore.ToString();
 	}
 
-	public IEnumerator SlideLeftIn(GameObject component, float duration, float startAfter) {
+	/**
+	 * Slides from right to left
+	 *
+	 * The X anchor must be set to center
+	 */
+	public IEnumerator SlideLeft(GameObject component, float duration, float startAfter) {
 
 		RectTransform rect = component.GetComponent<RectTransform>();
 
-		float offset = _canvasTransform.rect.width / 2 + component.GetComponent<RectTransform>().rect.width / 2;
+		float offset = _canvasTransform.rect.width / 2 + rect.rect.width / 2;
 
-		float from = component.transform.position.x + offset;
+		float from = rect.anchoredPosition.x + offset;
+		float to = rect.anchoredPosition.x;
 		
-		//Vector3 position =  new Vector3(from, component.transform.position.y, component.transform.position.z);
-		rect.anchoredPosition = new Vector2(offset, rect.anchoredPosition.y);
-		//Debug.Log(Camera.main.WorldToScreenPoint(position));
+		rect.anchoredPosition = new Vector2(from, rect.anchoredPosition.y);
 		
 		yield return new WaitForSeconds(startAfter);
 		
 		for (float i = 0; i < duration; i += Time.deltaTime) {
 			float x = from - offset * i / duration;
-			//component.transform.position = new Vector3(x, component.transform.position.y, component.transform.position.z);
 			rect.anchoredPosition = new Vector2(x, rect.anchoredPosition.y);
 			yield return null;
 		}
+		
+		rect.anchoredPosition = new Vector2(to, rect.anchoredPosition.y);
+	}
 
+	/**
+	 * Slide in from bottom to top
+	 *
+	 * Must be on the middle screen or below
+	 */
+	public IEnumerator SlideTop(GameObject component, float duration, float startAfter) {
+		RectTransform rect = component.GetComponent<RectTransform>();
+
+		float offset = -_canvasTransform.rect.height / 2;
+
+		float from = rect.anchoredPosition.y + offset;
+		float to = rect.anchoredPosition.y;
+		
+		rect.anchoredPosition = new Vector2(rect.anchoredPosition.x, from);
+
+		yield return new WaitForSeconds(startAfter);
+		
+		for (float i = 0; i < duration; i += Time.deltaTime) {
+			float y = from - offset * i / duration;
+			rect.anchoredPosition = new Vector2(rect.anchoredPosition.x, y);
+			yield return null;
+		}
+		
+		rect.anchoredPosition = new Vector2(rect.anchoredPosition.x, to);
+	}
+	
+	/**
+	 * Slide in from top to bottom
+	 *
+	 * Must be on the middle screen or above
+	 */
+	public IEnumerator SlideBottom(GameObject component, float duration, float startAfter) {
+		RectTransform rect = component.GetComponent<RectTransform>();
+
+		float offset = _canvasTransform.rect.height /2;
+
+		float from = rect.anchoredPosition.y + offset;
+		float to = rect.anchoredPosition.y;
+		
+		rect.anchoredPosition = new Vector2(rect.anchoredPosition.x, from);
+
+		yield return new WaitForSeconds(startAfter);
+		
+		for (float i = 0; i < duration; i += Time.deltaTime) {
+			float y = from - offset * i / duration;
+			rect.anchoredPosition = new Vector2(rect.anchoredPosition.x, y);
+			yield return null;
+		}
+		
+		rect.anchoredPosition = new Vector2(rect.anchoredPosition.x, to);
+	}
+
+	/**
+	 * Blink with fade until component is disabled
+	 */
+	public IEnumerator Blink(GameObject component) {
+		CanvasGroup cg = component.GetComponent<CanvasGroup>();
+
+		float alpha = 1;
+		const float speed = 0.9f;
+		int direction = -1;
+
+		while (component.activeSelf) {
+			alpha += speed * Time.deltaTime * direction;
+
+			if (alpha <= 0) {
+				alpha = 0;
+				direction = 1;
+			}
+			
+			else if (alpha >= 1) {
+				alpha = 1;
+				direction = -1;
+			}
+
+			cg.alpha = alpha;
+
+			yield return null;
+		} 
 	}
 }
