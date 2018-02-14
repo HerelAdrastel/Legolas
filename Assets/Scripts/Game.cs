@@ -29,7 +29,6 @@ public abstract class Game : MonoBehaviour {
 	 * The children classes must override the method and add base.Start at the END of the method
 	 */
 	public virtual void Start () {
-
 	}
 	
 	/**

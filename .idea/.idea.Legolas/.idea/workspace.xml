@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c060e094-6cc6-430d-974c-ed1728cf4fc1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Legolas/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Legolas/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Legolas/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Legolas/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BigEnemy.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/BigEnemy.prefab" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Relax.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Relax.unity" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Game.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/UI.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,41 +19,41 @@
       <file leaf-file-name="Game.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="74" column="24" lean-forward="false" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
+            <state relative-caret-position="-212">
+              <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
               <folding>
-                <marker date="1518640601570" expanded="false" signature="6:121" ph="..." />
-                <marker date="1518640601570" expanded="true" signature="166:3453" ph="{...}" />
-                <marker date="1518640601570" expanded="true" signature="257:314" ph="{...}" />
-                <marker date="1518640601570" expanded="true" signature="318:481" ph="/* 0: Menu ... */" />
-                <marker date="1518640601570" expanded="true" signature="545:684" ph="/* Called during the class creation ... */" />
-                <marker date="1518640601570" expanded="true" signature="715:720" ph="{...}" />
-                <marker date="1518640601570" expanded="true" signature="724:850" ph="/* Called every frames ... */" />
-                <marker date="1518640601570" expanded="true" signature="882:1638" ph="{...}" />
-                <marker date="1518640601570" expanded="true" signature="886:939" ph="/* if(_playing) ... */" />
-                <marker date="1518640601570" expanded="true" signature="965:1635" ph="{...}" />
-                <marker date="1518640601570" expanded="true" signature="1015:1069" ph="{...}" />
-                <marker date="1518640601570" expanded="true" signature="1242:1296" ph="{...}" />
-                <marker date="1518640601570" expanded="true" signature="1425:1483" ph="{...}" />
-                <marker date="1518640601570" expanded="true" signature="1688:1742" ph="/* Called on each frame during the play time ... */" />
-                <marker date="1518640601570" expanded="true" signature="1792:1850" ph="/* Called on each frame during the gameover time ... */" />
-                <marker date="1518640601570" expanded="true" signature="1933:1958" ph="{...}" />
-                <marker date="1518640601570" expanded="true" signature="1992:2016" ph="{...}" />
-                <marker date="1518640601570" expanded="true" signature="2076:2123" ph="{...}" />
-                <marker date="1518640601570" expanded="true" signature="2152:2238" ph="{...}" />
-                <marker date="1518640601570" expanded="true" signature="2160:2235" ph="{...}" />
-                <marker date="1518640601570" expanded="true" signature="2267:2353" ph="{...}" />
-                <marker date="1518640601570" expanded="true" signature="2275:2350" ph="{...}" />
-                <marker date="1518640601570" expanded="true" signature="2380:2466" ph="{...}" />
-                <marker date="1518640601570" expanded="true" signature="2388:2463" ph="{...}" />
-                <marker date="1518640601570" expanded="true" signature="2496:2582" ph="{...}" />
-                <marker date="1518640601570" expanded="true" signature="2504:2579" ph="{...}" />
-                <marker date="1518640601570" expanded="true" signature="2658:2833" ph="{...}" />
-                <marker date="1518640601570" expanded="true" signature="2837:2914" ph="/* Return true if the space bar is pressed or the screen is touched ... */" />
-                <marker date="1518640601570" expanded="true" signature="2946:3057" ph="{...}" />
-                <marker date="1518640601570" expanded="true" signature="3063:3142" ph="/* Resets the static variables to not been kept during reseting Scene ... */" />
-                <marker date="1518640601570" expanded="true" signature="3177:3228" ph="{...}" />
-                <marker date="1518640601570" expanded="true" signature="3233:3449" ph="/* Execute function after few seconds ... */" />
+                <marker date="1518644439269" expanded="false" signature="6:121" ph="..." />
+                <marker date="1518644439269" expanded="true" signature="166:3452" ph="{...}" />
+                <marker date="1518644439269" expanded="true" signature="257:314" ph="{...}" />
+                <marker date="1518644439269" expanded="true" signature="318:481" ph="/* 0: Menu ... */" />
+                <marker date="1518644439269" expanded="true" signature="545:684" ph="/* Called during the class creation ... */" />
+                <marker date="1518644439269" expanded="true" signature="715:719" ph="{...}" />
+                <marker date="1518644439269" expanded="true" signature="723:849" ph="/* Called every frames ... */" />
+                <marker date="1518644439269" expanded="true" signature="881:1637" ph="{...}" />
+                <marker date="1518644439269" expanded="true" signature="885:938" ph="/* if(_playing) ... */" />
+                <marker date="1518644439269" expanded="true" signature="964:1634" ph="{...}" />
+                <marker date="1518644439269" expanded="true" signature="1014:1068" ph="{...}" />
+                <marker date="1518644439269" expanded="true" signature="1241:1295" ph="{...}" />
+                <marker date="1518644439269" expanded="true" signature="1424:1482" ph="{...}" />
+                <marker date="1518644439269" expanded="true" signature="1687:1741" ph="/* Called on each frame during the play time ... */" />
+                <marker date="1518644439269" expanded="true" signature="1791:1849" ph="/* Called on each frame during the gameover time ... */" />
+                <marker date="1518644439269" expanded="true" signature="1932:1957" ph="{...}" />
+                <marker date="1518644439269" expanded="true" signature="1991:2015" ph="{...}" />
+                <marker date="1518644439269" expanded="true" signature="2075:2122" ph="{...}" />
+                <marker date="1518644439269" expanded="true" signature="2151:2237" ph="{...}" />
+                <marker date="1518644439269" expanded="true" signature="2159:2234" ph="{...}" />
+                <marker date="1518644439269" expanded="true" signature="2266:2352" ph="{...}" />
+                <marker date="1518644439269" expanded="true" signature="2274:2349" ph="{...}" />
+                <marker date="1518644439269" expanded="true" signature="2379:2465" ph="{...}" />
+                <marker date="1518644439269" expanded="true" signature="2387:2462" ph="{...}" />
+                <marker date="1518644439269" expanded="true" signature="2495:2581" ph="{...}" />
+                <marker date="1518644439269" expanded="true" signature="2503:2578" ph="{...}" />
+                <marker date="1518644439269" expanded="true" signature="2657:2832" ph="{...}" />
+                <marker date="1518644439269" expanded="true" signature="2836:2913" ph="/* Return true if the space bar is pressed or the screen is touched ... */" />
+                <marker date="1518644439269" expanded="true" signature="2945:3056" ph="{...}" />
+                <marker date="1518644439269" expanded="true" signature="3062:3141" ph="/* Resets the static variables to not been kept during reseting Scene ... */" />
+                <marker date="1518644439269" expanded="true" signature="3176:3227" ph="{...}" />
+                <marker date="1518644439269" expanded="true" signature="3232:3448" ph="/* Execute function after few seconds ... */" />
               </folding>
             </state>
           </provider>
@@ -102,49 +97,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UI.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UI.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="217" column="38" lean-forward="false" selection-start-line="217" selection-start-column="38" selection-end-line="217" selection-end-column="38" />
+            <state relative-caret-position="360">
+              <caret line="213" column="89" lean-forward="false" selection-start-line="213" selection-start-column="89" selection-end-line="213" selection-end-column="89" />
               <folding>
-                <marker date="1518631901661" expanded="false" signature="6:154" ph="..." />
-                <marker date="1518631901661" expanded="true" signature="286:7528" ph="{...}" />
-                <marker date="1518631901661" expanded="true" signature="290:352" ph="/* All the gameover items which are hidden and shown ... */" />
-                <marker date="1518631901661" expanded="true" signature="522:552" ph="/* Canvas components ... */" />
-                <marker date="1518631901661" expanded="true" signature="598:630" ph="/* The Menu components ... */" />
-                <marker date="1518631901661" expanded="true" signature="703:739" ph="/* The Gameover components ... */" />
-                <marker date="1518631901661" expanded="true" signature="933:1289" ph="{...}" />
-                <marker date="1518631901661" expanded="true" signature="1325:1373" ph="/* Shows Menu items and hides the rest ... */" />
-                <marker date="1518631901661" expanded="true" signature="1419:2022" ph="{...}" />
-                <marker date="1518631901661" expanded="true" signature="2027:2079" ph="/* Hide Start Menu item and show play menu ... */" />
-                <marker date="1518631901661" expanded="true" signature="2125:2461" ph="{...}" />
-                <marker date="1518631901661" expanded="true" signature="2466:2549" ph="/* Update the Score Infos, Hide the play menu and shows the gameover menu ... */" />
-                <marker date="1518631901661" expanded="true" signature="2603:3040" ph="{...}" />
-                <marker date="1518631901661" expanded="true" signature="2930:3037" ph="{...}" />
-                <marker date="1518631901661" expanded="true" signature="3046:3077" ph="/* Restars scene ... */" />
-                <marker date="1518631901661" expanded="true" signature="3106:3195" ph="{...}" />
-                <marker date="1518631901661" expanded="true" signature="3200:3224" ph="/* Share score ... */" />
-                <marker date="1518631901661" expanded="true" signature="3302:4153" ph="{...}" />
-                <marker date="1518631901661" expanded="true" signature="4156:4193" ph="/* Updates Start menu infos ... */" />
-                <marker date="1518631901661" expanded="true" signature="4225:4330" ph="{...}" />
-                <marker date="1518631901661" expanded="true" signature="4335:4376" ph="/* Updates Gameover score infos ... */" />
-                <marker date="1518631901661" expanded="true" signature="4409:4683" ph="{...}" />
-                <marker date="1518631901661" expanded="true" signature="4438:4559" ph="{...}" />
-                <marker date="1518631901661" expanded="true" signature="4686:4767" ph="/* Slides from right to left ... */" />
-                <marker date="1518631901661" expanded="true" signature="4854:5475" ph="{...}" />
-                <marker date="1518631901661" expanded="true" signature="5263:5401" ph="{...}" />
-                <marker date="1518631901661" expanded="true" signature="5478:5564" ph="/* Slide in from bottom to top ... */" />
-                <marker date="1518631901661" expanded="true" signature="5650:6248" ph="{...}" />
-                <marker date="1518631901661" expanded="true" signature="6036:6174" ph="{...}" />
-                <marker date="1518631901661" expanded="true" signature="6252:6338" ph="/* Slide in from top to bottom ... */" />
-                <marker date="1518631901661" expanded="true" signature="6427:7023" ph="{...}" />
-                <marker date="1518631901661" expanded="true" signature="6811:6949" ph="{...}" />
-                <marker date="1518631901661" expanded="true" signature="7026:7082" ph="/* Blink with fade until component is disabled ... */" />
-                <marker date="1518631901661" expanded="true" signature="7131:7526" ph="{...}" />
-                <marker date="1518631901661" expanded="true" signature="7293:7522" ph="{...}" />
-                <marker date="1518631901661" expanded="true" signature="7363:7403" ph="{...}" />
-                <marker date="1518631901661" expanded="true" signature="7432:7473" ph="{...}" />
+                <marker date="1518644575531" expanded="false" signature="6:154" ph="..." />
+                <marker date="1518644575531" expanded="true" signature="286:8350" ph="{...}" />
+                <marker date="1518644575531" expanded="true" signature="290:352" ph="/* All the gameover items which are hidden and shown ... */" />
+                <marker date="1518644575531" expanded="true" signature="522:552" ph="/* Canvas components ... */" />
+                <marker date="1518644575531" expanded="true" signature="598:630" ph="/* The Menu components ... */" />
+                <marker date="1518644575531" expanded="true" signature="703:739" ph="/* The Gameover components ... */" />
+                <marker date="1518644575531" expanded="true" signature="993:1401" ph="{...}" />
+                <marker date="1518644575531" expanded="true" signature="1437:1485" ph="/* Shows Menu items and hides the rest ... */" />
+                <marker date="1518644575531" expanded="true" signature="1531:2134" ph="{...}" />
+                <marker date="1518644575531" expanded="true" signature="2139:2191" ph="/* Hide Start Menu item and show play menu ... */" />
+                <marker date="1518644575531" expanded="true" signature="2237:2573" ph="{...}" />
+                <marker date="1518644575531" expanded="true" signature="2578:2661" ph="/* Update the Score Infos, Hide the play menu and shows the gameover menu ... */" />
+                <marker date="1518644575531" expanded="true" signature="2715:3152" ph="{...}" />
+                <marker date="1518644575531" expanded="true" signature="3042:3149" ph="{...}" />
+                <marker date="1518644575531" expanded="true" signature="3158:3189" ph="/* Restars scene ... */" />
+                <marker date="1518644575531" expanded="true" signature="3218:3307" ph="{...}" />
+                <marker date="1518644575531" expanded="true" signature="3312:3336" ph="/* Share score ... */" />
+                <marker date="1518644575531" expanded="true" signature="3414:4265" ph="{...}" />
+                <marker date="1518644575531" expanded="true" signature="4268:4305" ph="/* Updates Start menu infos ... */" />
+                <marker date="1518644575531" expanded="true" signature="4337:4442" ph="{...}" />
+                <marker date="1518644575531" expanded="true" signature="4447:4488" ph="/* Updates Gameover score infos ... */" />
+                <marker date="1518644575531" expanded="true" signature="4521:5125" ph="{...}" />
+                <marker date="1518644575531" expanded="true" signature="4570:4691" ph="{...}" />
+                <marker date="1518644575531" expanded="true" signature="5128:5209" ph="/* Slides from right to left ... */" />
+                <marker date="1518644575531" expanded="true" signature="5296:5917" ph="{...}" />
+                <marker date="1518644575531" expanded="true" signature="5705:5843" ph="{...}" />
+                <marker date="1518644575531" expanded="true" signature="5920:6006" ph="/* Slide in from bottom to top ... */" />
+                <marker date="1518644575531" expanded="true" signature="6092:6690" ph="{...}" />
+                <marker date="1518644575531" expanded="true" signature="6478:6616" ph="{...}" />
+                <marker date="1518644575531" expanded="true" signature="6694:6780" ph="/* Slide in from top to bottom ... */" />
+                <marker date="1518644575531" expanded="true" signature="6869:7465" ph="{...}" />
+                <marker date="1518644575531" expanded="true" signature="7253:7391" ph="{...}" />
+                <marker date="1518644575531" expanded="true" signature="7468:7524" ph="/* Blink with fade until component is disabled ... */" />
+                <marker date="1518644575531" expanded="true" signature="7573:7968" ph="{...}" />
+                <marker date="1518644575531" expanded="true" signature="7735:7964" ph="{...}" />
+                <marker date="1518644575531" expanded="true" signature="7805:7845" ph="{...}" />
+                <marker date="1518644575531" expanded="true" signature="7874:7915" ph="{...}" />
+                <marker date="1518644575531" expanded="true" signature="7972:8010" ph="/* Increase number animation ... */" />
+                <marker date="1518644575531" expanded="true" signature="8106:8347" ph="{...}" />
+                <marker date="1518644575531" expanded="true" signature="8247:8344" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -154,7 +152,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Item.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
               <folding>
                 <marker date="1518642284059" expanded="false" signature="6:78" ph="..." />
                 <marker date="1518642284059" expanded="true" signature="105:628" ph="{...}" />
@@ -184,11 +182,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Enemy.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Enemy.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <marker date="1518553282760" expanded="false" signature="6:78" ph="..." />
                 <marker date="1518553282760" expanded="true" signature="105:890" ph="{...}" />
@@ -206,7 +204,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="126" column="44" lean-forward="true" selection-start-line="126" selection-start-column="44" selection-end-line="126" selection-end-column="44" />
+              <caret line="126" column="44" lean-forward="false" selection-start-line="126" selection-start-column="44" selection-end-line="126" selection-end-column="44" />
               <folding>
                 <marker date="1518642750427" expanded="false" signature="6:108" ph="..." />
                 <marker date="1518642750427" expanded="true" signature="136:3073" ph="{...}" />
@@ -265,11 +263,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Ui.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemSpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI.cs" />
       </list>
     </option>
   </component>
@@ -405,12 +403,12 @@
       <workItem from="1518559970221" duration="1655000" />
       <workItem from="1518630354867" duration="2134000" />
       <workItem from="1518637900978" duration="865000" />
-      <workItem from="1518639184459" duration="3359000" />
+      <workItem from="1518639184459" duration="4945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54189000" />
+    <option name="totallyTimeSpent" value="55775000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -423,6 +421,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-4" width="1368" height="773" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -430,7 +429,7 @@
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="true" show_stripe_button="true" weight="0.26041666" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="1" y="478" width="1364" height="213" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.26041666" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="1" y="478" width="1364" height="213" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19692533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -495,38 +494,38 @@
         <state relative-caret-position="234">
           <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
-            <marker date="1518640601570" expanded="false" signature="6:121" ph="..." />
-            <marker date="1518640601570" expanded="true" signature="166:3453" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="257:314" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="318:481" ph="/* 0: Menu ... */" />
-            <marker date="1518640601570" expanded="true" signature="545:684" ph="/* Called during the class creation ... */" />
-            <marker date="1518640601570" expanded="true" signature="715:720" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="724:850" ph="/* Called every frames ... */" />
-            <marker date="1518640601570" expanded="true" signature="882:1638" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="886:939" ph="/* if(_playing) ... */" />
-            <marker date="1518640601570" expanded="true" signature="965:1635" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1015:1069" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1242:1296" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1425:1483" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1688:1742" ph="/* Called on each frame during the play time ... */" />
-            <marker date="1518640601570" expanded="true" signature="1792:1850" ph="/* Called on each frame during the gameover time ... */" />
-            <marker date="1518640601570" expanded="true" signature="1933:1958" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1992:2016" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2076:2123" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2152:2238" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2160:2235" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2267:2353" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2275:2350" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2380:2466" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2388:2463" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2496:2582" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2504:2579" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2658:2833" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2837:2914" ph="/* Return true if the space bar is pressed or the screen is touched ... */" />
-            <marker date="1518640601570" expanded="true" signature="2946:3057" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="3063:3142" ph="/* Resets the static variables to not been kept during reseting Scene ... */" />
-            <marker date="1518640601570" expanded="true" signature="3177:3228" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="3233:3449" ph="/* Execute function after few seconds ... */" />
+            <marker date="1518644439269" expanded="false" signature="6:121" ph="..." />
+            <marker date="1518644439269" expanded="true" signature="166:3452" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="257:314" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="318:481" ph="/* 0: Menu ... */" />
+            <marker date="1518644439269" expanded="true" signature="545:684" ph="/* Called during the class creation ... */" />
+            <marker date="1518644439269" expanded="true" signature="715:719" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="723:849" ph="/* Called every frames ... */" />
+            <marker date="1518644439269" expanded="true" signature="881:1637" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="885:938" ph="/* if(_playing) ... */" />
+            <marker date="1518644439269" expanded="true" signature="964:1634" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1014:1068" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1241:1295" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1424:1482" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1687:1741" ph="/* Called on each frame during the play time ... */" />
+            <marker date="1518644439269" expanded="true" signature="1791:1849" ph="/* Called on each frame during the gameover time ... */" />
+            <marker date="1518644439269" expanded="true" signature="1932:1957" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1991:2015" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2075:2122" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2151:2237" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2159:2234" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2266:2352" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2274:2349" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2379:2465" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2387:2462" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2495:2581" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2503:2578" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2657:2832" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2836:2913" ph="/* Return true if the space bar is pressed or the screen is touched ... */" />
+            <marker date="1518644439269" expanded="true" signature="2945:3056" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="3062:3141" ph="/* Resets the static variables to not been kept during reseting Scene ... */" />
+            <marker date="1518644439269" expanded="true" signature="3176:3227" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="3232:3448" ph="/* Execute function after few seconds ... */" />
           </folding>
         </state>
       </provider>
@@ -609,43 +608,46 @@
         <state relative-caret-position="1260">
           <caret line="70" column="56" lean-forward="false" selection-start-line="70" selection-start-column="56" selection-end-line="70" selection-end-column="56" />
           <folding>
-            <marker date="1518631901661" expanded="false" signature="6:154" ph="..." />
-            <marker date="1518631901661" expanded="true" signature="286:7528" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="290:352" ph="/* All the gameover items which are hidden and shown ... */" />
-            <marker date="1518631901661" expanded="true" signature="522:552" ph="/* Canvas components ... */" />
-            <marker date="1518631901661" expanded="true" signature="598:630" ph="/* The Menu components ... */" />
-            <marker date="1518631901661" expanded="true" signature="703:739" ph="/* The Gameover components ... */" />
-            <marker date="1518631901661" expanded="true" signature="933:1289" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="1325:1373" ph="/* Shows Menu items and hides the rest ... */" />
-            <marker date="1518631901661" expanded="true" signature="1419:2022" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="2027:2079" ph="/* Hide Start Menu item and show play menu ... */" />
-            <marker date="1518631901661" expanded="true" signature="2125:2461" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="2466:2549" ph="/* Update the Score Infos, Hide the play menu and shows the gameover menu ... */" />
-            <marker date="1518631901661" expanded="true" signature="2603:3040" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="2930:3037" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="3046:3077" ph="/* Restars scene ... */" />
-            <marker date="1518631901661" expanded="true" signature="3106:3195" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="3200:3224" ph="/* Share score ... */" />
-            <marker date="1518631901661" expanded="true" signature="3302:4153" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="4156:4193" ph="/* Updates Start menu infos ... */" />
-            <marker date="1518631901661" expanded="true" signature="4225:4330" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="4335:4376" ph="/* Updates Gameover score infos ... */" />
-            <marker date="1518631901661" expanded="true" signature="4409:4683" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="4438:4559" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="4686:4767" ph="/* Slides from right to left ... */" />
-            <marker date="1518631901661" expanded="true" signature="4854:5475" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="5263:5401" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="5478:5564" ph="/* Slide in from bottom to top ... */" />
-            <marker date="1518631901661" expanded="true" signature="5650:6248" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="6036:6174" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="6252:6338" ph="/* Slide in from top to bottom ... */" />
-            <marker date="1518631901661" expanded="true" signature="6427:7023" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="6811:6949" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="7026:7082" ph="/* Blink with fade until component is disabled ... */" />
-            <marker date="1518631901661" expanded="true" signature="7131:7526" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="7293:7522" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="7363:7403" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="7432:7473" ph="{...}" />
+            <marker date="1518644575531" expanded="false" signature="6:154" ph="..." />
+            <marker date="1518644575531" expanded="true" signature="286:8350" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="290:352" ph="/* All the gameover items which are hidden and shown ... */" />
+            <marker date="1518644575531" expanded="true" signature="522:552" ph="/* Canvas components ... */" />
+            <marker date="1518644575531" expanded="true" signature="598:630" ph="/* The Menu components ... */" />
+            <marker date="1518644575531" expanded="true" signature="703:739" ph="/* The Gameover components ... */" />
+            <marker date="1518644575531" expanded="true" signature="993:1401" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="1437:1485" ph="/* Shows Menu items and hides the rest ... */" />
+            <marker date="1518644575531" expanded="true" signature="1531:2134" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="2139:2191" ph="/* Hide Start Menu item and show play menu ... */" />
+            <marker date="1518644575531" expanded="true" signature="2237:2573" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="2578:2661" ph="/* Update the Score Infos, Hide the play menu and shows the gameover menu ... */" />
+            <marker date="1518644575531" expanded="true" signature="2715:3152" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="3042:3149" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="3158:3189" ph="/* Restars scene ... */" />
+            <marker date="1518644575531" expanded="true" signature="3218:3307" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="3312:3336" ph="/* Share score ... */" />
+            <marker date="1518644575531" expanded="true" signature="3414:4265" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="4268:4305" ph="/* Updates Start menu infos ... */" />
+            <marker date="1518644575531" expanded="true" signature="4337:4442" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="4447:4488" ph="/* Updates Gameover score infos ... */" />
+            <marker date="1518644575531" expanded="true" signature="4521:5125" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="4570:4691" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="5128:5209" ph="/* Slides from right to left ... */" />
+            <marker date="1518644575531" expanded="true" signature="5296:5917" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="5705:5843" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="5920:6006" ph="/* Slide in from bottom to top ... */" />
+            <marker date="1518644575531" expanded="true" signature="6092:6690" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="6478:6616" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="6694:6780" ph="/* Slide in from top to bottom ... */" />
+            <marker date="1518644575531" expanded="true" signature="6869:7465" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7253:7391" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7468:7524" ph="/* Blink with fade until component is disabled ... */" />
+            <marker date="1518644575531" expanded="true" signature="7573:7968" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7735:7964" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7805:7845" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7874:7915" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7972:8010" ph="/* Increase number animation ... */" />
+            <marker date="1518644575531" expanded="true" signature="8106:8347" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="8247:8344" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -655,38 +657,38 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1518640601570" expanded="false" signature="6:121" ph="..." />
-            <marker date="1518640601570" expanded="true" signature="166:3453" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="257:314" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="318:481" ph="/* 0: Menu ... */" />
-            <marker date="1518640601570" expanded="true" signature="545:684" ph="/* Called during the class creation ... */" />
-            <marker date="1518640601570" expanded="true" signature="715:720" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="724:850" ph="/* Called every frames ... */" />
-            <marker date="1518640601570" expanded="true" signature="882:1638" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="886:939" ph="/* if(_playing) ... */" />
-            <marker date="1518640601570" expanded="true" signature="965:1635" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1015:1069" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1242:1296" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1425:1483" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1688:1742" ph="/* Called on each frame during the play time ... */" />
-            <marker date="1518640601570" expanded="true" signature="1792:1850" ph="/* Called on each frame during the gameover time ... */" />
-            <marker date="1518640601570" expanded="true" signature="1933:1958" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1992:2016" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2076:2123" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2152:2238" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2160:2235" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2267:2353" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2275:2350" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2380:2466" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2388:2463" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2496:2582" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2504:2579" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2658:2833" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2837:2914" ph="/* Return true if the space bar is pressed or the screen is touched ... */" />
-            <marker date="1518640601570" expanded="true" signature="2946:3057" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="3063:3142" ph="/* Resets the static variables to not been kept during reseting Scene ... */" />
-            <marker date="1518640601570" expanded="true" signature="3177:3228" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="3233:3449" ph="/* Execute function after few seconds ... */" />
+            <marker date="1518644439269" expanded="false" signature="6:121" ph="..." />
+            <marker date="1518644439269" expanded="true" signature="166:3452" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="257:314" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="318:481" ph="/* 0: Menu ... */" />
+            <marker date="1518644439269" expanded="true" signature="545:684" ph="/* Called during the class creation ... */" />
+            <marker date="1518644439269" expanded="true" signature="715:719" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="723:849" ph="/* Called every frames ... */" />
+            <marker date="1518644439269" expanded="true" signature="881:1637" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="885:938" ph="/* if(_playing) ... */" />
+            <marker date="1518644439269" expanded="true" signature="964:1634" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1014:1068" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1241:1295" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1424:1482" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1687:1741" ph="/* Called on each frame during the play time ... */" />
+            <marker date="1518644439269" expanded="true" signature="1791:1849" ph="/* Called on each frame during the gameover time ... */" />
+            <marker date="1518644439269" expanded="true" signature="1932:1957" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1991:2015" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2075:2122" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2151:2237" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2159:2234" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2266:2352" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2274:2349" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2379:2465" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2387:2462" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2495:2581" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2503:2578" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2657:2832" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2836:2913" ph="/* Return true if the space bar is pressed or the screen is touched ... */" />
+            <marker date="1518644439269" expanded="true" signature="2945:3056" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="3062:3141" ph="/* Resets the static variables to not been kept during reseting Scene ... */" />
+            <marker date="1518644439269" expanded="true" signature="3176:3227" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="3232:3448" ph="/* Execute function after few seconds ... */" />
           </folding>
         </state>
       </provider>
@@ -714,43 +716,46 @@
         <state relative-caret-position="144">
           <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
-            <marker date="1518631901661" expanded="false" signature="6:154" ph="..." />
-            <marker date="1518631901661" expanded="true" signature="286:7528" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="290:352" ph="/* All the gameover items which are hidden and shown ... */" />
-            <marker date="1518631901661" expanded="true" signature="522:552" ph="/* Canvas components ... */" />
-            <marker date="1518631901661" expanded="true" signature="598:630" ph="/* The Menu components ... */" />
-            <marker date="1518631901661" expanded="true" signature="703:739" ph="/* The Gameover components ... */" />
-            <marker date="1518631901661" expanded="true" signature="933:1289" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="1325:1373" ph="/* Shows Menu items and hides the rest ... */" />
-            <marker date="1518631901661" expanded="true" signature="1419:2022" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="2027:2079" ph="/* Hide Start Menu item and show play menu ... */" />
-            <marker date="1518631901661" expanded="true" signature="2125:2461" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="2466:2549" ph="/* Update the Score Infos, Hide the play menu and shows the gameover menu ... */" />
-            <marker date="1518631901661" expanded="true" signature="2603:3040" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="2930:3037" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="3046:3077" ph="/* Restars scene ... */" />
-            <marker date="1518631901661" expanded="true" signature="3106:3195" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="3200:3224" ph="/* Share score ... */" />
-            <marker date="1518631901661" expanded="true" signature="3302:4153" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="4156:4193" ph="/* Updates Start menu infos ... */" />
-            <marker date="1518631901661" expanded="true" signature="4225:4330" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="4335:4376" ph="/* Updates Gameover score infos ... */" />
-            <marker date="1518631901661" expanded="true" signature="4409:4683" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="4438:4559" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="4686:4767" ph="/* Slides from right to left ... */" />
-            <marker date="1518631901661" expanded="true" signature="4854:5475" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="5263:5401" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="5478:5564" ph="/* Slide in from bottom to top ... */" />
-            <marker date="1518631901661" expanded="true" signature="5650:6248" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="6036:6174" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="6252:6338" ph="/* Slide in from top to bottom ... */" />
-            <marker date="1518631901661" expanded="true" signature="6427:7023" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="6811:6949" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="7026:7082" ph="/* Blink with fade until component is disabled ... */" />
-            <marker date="1518631901661" expanded="true" signature="7131:7526" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="7293:7522" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="7363:7403" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="7432:7473" ph="{...}" />
+            <marker date="1518644575531" expanded="false" signature="6:154" ph="..." />
+            <marker date="1518644575531" expanded="true" signature="286:8350" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="290:352" ph="/* All the gameover items which are hidden and shown ... */" />
+            <marker date="1518644575531" expanded="true" signature="522:552" ph="/* Canvas components ... */" />
+            <marker date="1518644575531" expanded="true" signature="598:630" ph="/* The Menu components ... */" />
+            <marker date="1518644575531" expanded="true" signature="703:739" ph="/* The Gameover components ... */" />
+            <marker date="1518644575531" expanded="true" signature="993:1401" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="1437:1485" ph="/* Shows Menu items and hides the rest ... */" />
+            <marker date="1518644575531" expanded="true" signature="1531:2134" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="2139:2191" ph="/* Hide Start Menu item and show play menu ... */" />
+            <marker date="1518644575531" expanded="true" signature="2237:2573" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="2578:2661" ph="/* Update the Score Infos, Hide the play menu and shows the gameover menu ... */" />
+            <marker date="1518644575531" expanded="true" signature="2715:3152" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="3042:3149" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="3158:3189" ph="/* Restars scene ... */" />
+            <marker date="1518644575531" expanded="true" signature="3218:3307" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="3312:3336" ph="/* Share score ... */" />
+            <marker date="1518644575531" expanded="true" signature="3414:4265" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="4268:4305" ph="/* Updates Start menu infos ... */" />
+            <marker date="1518644575531" expanded="true" signature="4337:4442" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="4447:4488" ph="/* Updates Gameover score infos ... */" />
+            <marker date="1518644575531" expanded="true" signature="4521:5125" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="4570:4691" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="5128:5209" ph="/* Slides from right to left ... */" />
+            <marker date="1518644575531" expanded="true" signature="5296:5917" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="5705:5843" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="5920:6006" ph="/* Slide in from bottom to top ... */" />
+            <marker date="1518644575531" expanded="true" signature="6092:6690" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="6478:6616" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="6694:6780" ph="/* Slide in from top to bottom ... */" />
+            <marker date="1518644575531" expanded="true" signature="6869:7465" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7253:7391" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7468:7524" ph="/* Blink with fade until component is disabled ... */" />
+            <marker date="1518644575531" expanded="true" signature="7573:7968" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7735:7964" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7805:7845" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7874:7915" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7972:8010" ph="/* Increase number animation ... */" />
+            <marker date="1518644575531" expanded="true" signature="8106:8347" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="8247:8344" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -816,38 +821,38 @@
         <state relative-caret-position="414">
           <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="23" />
           <folding>
-            <marker date="1518640601570" expanded="false" signature="6:121" ph="..." />
-            <marker date="1518640601570" expanded="true" signature="166:3453" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="257:314" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="318:481" ph="/* 0: Menu ... */" />
-            <marker date="1518640601570" expanded="true" signature="545:684" ph="/* Called during the class creation ... */" />
-            <marker date="1518640601570" expanded="true" signature="715:720" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="724:850" ph="/* Called every frames ... */" />
-            <marker date="1518640601570" expanded="true" signature="882:1638" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="886:939" ph="/* if(_playing) ... */" />
-            <marker date="1518640601570" expanded="true" signature="965:1635" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1015:1069" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1242:1296" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1425:1483" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1688:1742" ph="/* Called on each frame during the play time ... */" />
-            <marker date="1518640601570" expanded="true" signature="1792:1850" ph="/* Called on each frame during the gameover time ... */" />
-            <marker date="1518640601570" expanded="true" signature="1933:1958" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1992:2016" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2076:2123" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2152:2238" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2160:2235" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2267:2353" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2275:2350" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2380:2466" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2388:2463" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2496:2582" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2504:2579" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2658:2833" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2837:2914" ph="/* Return true if the space bar is pressed or the screen is touched ... */" />
-            <marker date="1518640601570" expanded="true" signature="2946:3057" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="3063:3142" ph="/* Resets the static variables to not been kept during reseting Scene ... */" />
-            <marker date="1518640601570" expanded="true" signature="3177:3228" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="3233:3449" ph="/* Execute function after few seconds ... */" />
+            <marker date="1518644439269" expanded="false" signature="6:121" ph="..." />
+            <marker date="1518644439269" expanded="true" signature="166:3452" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="257:314" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="318:481" ph="/* 0: Menu ... */" />
+            <marker date="1518644439269" expanded="true" signature="545:684" ph="/* Called during the class creation ... */" />
+            <marker date="1518644439269" expanded="true" signature="715:719" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="723:849" ph="/* Called every frames ... */" />
+            <marker date="1518644439269" expanded="true" signature="881:1637" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="885:938" ph="/* if(_playing) ... */" />
+            <marker date="1518644439269" expanded="true" signature="964:1634" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1014:1068" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1241:1295" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1424:1482" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1687:1741" ph="/* Called on each frame during the play time ... */" />
+            <marker date="1518644439269" expanded="true" signature="1791:1849" ph="/* Called on each frame during the gameover time ... */" />
+            <marker date="1518644439269" expanded="true" signature="1932:1957" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1991:2015" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2075:2122" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2151:2237" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2159:2234" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2266:2352" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2274:2349" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2379:2465" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2387:2462" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2495:2581" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2503:2578" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2657:2832" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2836:2913" ph="/* Return true if the space bar is pressed or the screen is touched ... */" />
+            <marker date="1518644439269" expanded="true" signature="2945:3056" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="3062:3141" ph="/* Resets the static variables to not been kept during reseting Scene ... */" />
+            <marker date="1518644439269" expanded="true" signature="3176:3227" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="3232:3448" ph="/* Execute function after few seconds ... */" />
           </folding>
         </state>
       </provider>
@@ -930,43 +935,46 @@
         <state relative-caret-position="432">
           <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
           <folding>
-            <marker date="1518631901661" expanded="false" signature="6:154" ph="..." />
-            <marker date="1518631901661" expanded="true" signature="286:7528" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="290:352" ph="/* All the gameover items which are hidden and shown ... */" />
-            <marker date="1518631901661" expanded="true" signature="522:552" ph="/* Canvas components ... */" />
-            <marker date="1518631901661" expanded="true" signature="598:630" ph="/* The Menu components ... */" />
-            <marker date="1518631901661" expanded="true" signature="703:739" ph="/* The Gameover components ... */" />
-            <marker date="1518631901661" expanded="true" signature="933:1289" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="1325:1373" ph="/* Shows Menu items and hides the rest ... */" />
-            <marker date="1518631901661" expanded="true" signature="1419:2022" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="2027:2079" ph="/* Hide Start Menu item and show play menu ... */" />
-            <marker date="1518631901661" expanded="true" signature="2125:2461" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="2466:2549" ph="/* Update the Score Infos, Hide the play menu and shows the gameover menu ... */" />
-            <marker date="1518631901661" expanded="true" signature="2603:3040" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="2930:3037" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="3046:3077" ph="/* Restars scene ... */" />
-            <marker date="1518631901661" expanded="true" signature="3106:3195" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="3200:3224" ph="/* Share score ... */" />
-            <marker date="1518631901661" expanded="true" signature="3302:4153" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="4156:4193" ph="/* Updates Start menu infos ... */" />
-            <marker date="1518631901661" expanded="true" signature="4225:4330" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="4335:4376" ph="/* Updates Gameover score infos ... */" />
-            <marker date="1518631901661" expanded="true" signature="4409:4683" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="4438:4559" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="4686:4767" ph="/* Slides from right to left ... */" />
-            <marker date="1518631901661" expanded="true" signature="4854:5475" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="5263:5401" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="5478:5564" ph="/* Slide in from bottom to top ... */" />
-            <marker date="1518631901661" expanded="true" signature="5650:6248" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="6036:6174" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="6252:6338" ph="/* Slide in from top to bottom ... */" />
-            <marker date="1518631901661" expanded="true" signature="6427:7023" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="6811:6949" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="7026:7082" ph="/* Blink with fade until component is disabled ... */" />
-            <marker date="1518631901661" expanded="true" signature="7131:7526" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="7293:7522" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="7363:7403" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="7432:7473" ph="{...}" />
+            <marker date="1518644575531" expanded="false" signature="6:154" ph="..." />
+            <marker date="1518644575531" expanded="true" signature="286:8350" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="290:352" ph="/* All the gameover items which are hidden and shown ... */" />
+            <marker date="1518644575531" expanded="true" signature="522:552" ph="/* Canvas components ... */" />
+            <marker date="1518644575531" expanded="true" signature="598:630" ph="/* The Menu components ... */" />
+            <marker date="1518644575531" expanded="true" signature="703:739" ph="/* The Gameover components ... */" />
+            <marker date="1518644575531" expanded="true" signature="993:1401" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="1437:1485" ph="/* Shows Menu items and hides the rest ... */" />
+            <marker date="1518644575531" expanded="true" signature="1531:2134" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="2139:2191" ph="/* Hide Start Menu item and show play menu ... */" />
+            <marker date="1518644575531" expanded="true" signature="2237:2573" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="2578:2661" ph="/* Update the Score Infos, Hide the play menu and shows the gameover menu ... */" />
+            <marker date="1518644575531" expanded="true" signature="2715:3152" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="3042:3149" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="3158:3189" ph="/* Restars scene ... */" />
+            <marker date="1518644575531" expanded="true" signature="3218:3307" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="3312:3336" ph="/* Share score ... */" />
+            <marker date="1518644575531" expanded="true" signature="3414:4265" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="4268:4305" ph="/* Updates Start menu infos ... */" />
+            <marker date="1518644575531" expanded="true" signature="4337:4442" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="4447:4488" ph="/* Updates Gameover score infos ... */" />
+            <marker date="1518644575531" expanded="true" signature="4521:5125" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="4570:4691" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="5128:5209" ph="/* Slides from right to left ... */" />
+            <marker date="1518644575531" expanded="true" signature="5296:5917" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="5705:5843" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="5920:6006" ph="/* Slide in from bottom to top ... */" />
+            <marker date="1518644575531" expanded="true" signature="6092:6690" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="6478:6616" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="6694:6780" ph="/* Slide in from top to bottom ... */" />
+            <marker date="1518644575531" expanded="true" signature="6869:7465" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7253:7391" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7468:7524" ph="/* Blink with fade until component is disabled ... */" />
+            <marker date="1518644575531" expanded="true" signature="7573:7968" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7735:7964" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7805:7845" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7874:7915" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7972:8010" ph="/* Increase number animation ... */" />
+            <marker date="1518644575531" expanded="true" signature="8106:8347" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="8247:8344" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -976,38 +984,38 @@
         <state relative-caret-position="702">
           <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
           <folding>
-            <marker date="1518640601570" expanded="false" signature="6:121" ph="..." />
-            <marker date="1518640601570" expanded="true" signature="166:3453" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="257:314" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="318:481" ph="/* 0: Menu ... */" />
-            <marker date="1518640601570" expanded="true" signature="545:684" ph="/* Called during the class creation ... */" />
-            <marker date="1518640601570" expanded="true" signature="715:720" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="724:850" ph="/* Called every frames ... */" />
-            <marker date="1518640601570" expanded="true" signature="882:1638" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="886:939" ph="/* if(_playing) ... */" />
-            <marker date="1518640601570" expanded="true" signature="965:1635" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1015:1069" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1242:1296" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1425:1483" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1688:1742" ph="/* Called on each frame during the play time ... */" />
-            <marker date="1518640601570" expanded="true" signature="1792:1850" ph="/* Called on each frame during the gameover time ... */" />
-            <marker date="1518640601570" expanded="true" signature="1933:1958" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1992:2016" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2076:2123" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2152:2238" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2160:2235" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2267:2353" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2275:2350" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2380:2466" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2388:2463" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2496:2582" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2504:2579" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2658:2833" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2837:2914" ph="/* Return true if the space bar is pressed or the screen is touched ... */" />
-            <marker date="1518640601570" expanded="true" signature="2946:3057" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="3063:3142" ph="/* Resets the static variables to not been kept during reseting Scene ... */" />
-            <marker date="1518640601570" expanded="true" signature="3177:3228" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="3233:3449" ph="/* Execute function after few seconds ... */" />
+            <marker date="1518644439269" expanded="false" signature="6:121" ph="..." />
+            <marker date="1518644439269" expanded="true" signature="166:3452" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="257:314" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="318:481" ph="/* 0: Menu ... */" />
+            <marker date="1518644439269" expanded="true" signature="545:684" ph="/* Called during the class creation ... */" />
+            <marker date="1518644439269" expanded="true" signature="715:719" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="723:849" ph="/* Called every frames ... */" />
+            <marker date="1518644439269" expanded="true" signature="881:1637" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="885:938" ph="/* if(_playing) ... */" />
+            <marker date="1518644439269" expanded="true" signature="964:1634" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1014:1068" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1241:1295" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1424:1482" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1687:1741" ph="/* Called on each frame during the play time ... */" />
+            <marker date="1518644439269" expanded="true" signature="1791:1849" ph="/* Called on each frame during the gameover time ... */" />
+            <marker date="1518644439269" expanded="true" signature="1932:1957" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1991:2015" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2075:2122" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2151:2237" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2159:2234" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2266:2352" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2274:2349" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2379:2465" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2387:2462" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2495:2581" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2503:2578" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2657:2832" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2836:2913" ph="/* Return true if the space bar is pressed or the screen is touched ... */" />
+            <marker date="1518644439269" expanded="true" signature="2945:3056" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="3062:3141" ph="/* Resets the static variables to not been kept during reseting Scene ... */" />
+            <marker date="1518644439269" expanded="true" signature="3176:3227" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="3232:3448" ph="/* Execute function after few seconds ... */" />
           </folding>
         </state>
       </provider>
@@ -1090,38 +1098,38 @@
         <state relative-caret-position="270">
           <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding>
-            <marker date="1518640601570" expanded="false" signature="6:121" ph="..." />
-            <marker date="1518640601570" expanded="true" signature="166:3453" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="257:314" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="318:481" ph="/* 0: Menu ... */" />
-            <marker date="1518640601570" expanded="true" signature="545:684" ph="/* Called during the class creation ... */" />
-            <marker date="1518640601570" expanded="true" signature="715:720" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="724:850" ph="/* Called every frames ... */" />
-            <marker date="1518640601570" expanded="true" signature="882:1638" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="886:939" ph="/* if(_playing) ... */" />
-            <marker date="1518640601570" expanded="true" signature="965:1635" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1015:1069" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1242:1296" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1425:1483" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1688:1742" ph="/* Called on each frame during the play time ... */" />
-            <marker date="1518640601570" expanded="true" signature="1792:1850" ph="/* Called on each frame during the gameover time ... */" />
-            <marker date="1518640601570" expanded="true" signature="1933:1958" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1992:2016" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2076:2123" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2152:2238" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2160:2235" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2267:2353" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2275:2350" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2380:2466" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2388:2463" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2496:2582" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2504:2579" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2658:2833" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2837:2914" ph="/* Return true if the space bar is pressed or the screen is touched ... */" />
-            <marker date="1518640601570" expanded="true" signature="2946:3057" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="3063:3142" ph="/* Resets the static variables to not been kept during reseting Scene ... */" />
-            <marker date="1518640601570" expanded="true" signature="3177:3228" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="3233:3449" ph="/* Execute function after few seconds ... */" />
+            <marker date="1518644439269" expanded="false" signature="6:121" ph="..." />
+            <marker date="1518644439269" expanded="true" signature="166:3452" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="257:314" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="318:481" ph="/* 0: Menu ... */" />
+            <marker date="1518644439269" expanded="true" signature="545:684" ph="/* Called during the class creation ... */" />
+            <marker date="1518644439269" expanded="true" signature="715:719" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="723:849" ph="/* Called every frames ... */" />
+            <marker date="1518644439269" expanded="true" signature="881:1637" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="885:938" ph="/* if(_playing) ... */" />
+            <marker date="1518644439269" expanded="true" signature="964:1634" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1014:1068" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1241:1295" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1424:1482" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1687:1741" ph="/* Called on each frame during the play time ... */" />
+            <marker date="1518644439269" expanded="true" signature="1791:1849" ph="/* Called on each frame during the gameover time ... */" />
+            <marker date="1518644439269" expanded="true" signature="1932:1957" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1991:2015" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2075:2122" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2151:2237" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2159:2234" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2266:2352" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2274:2349" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2379:2465" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2387:2462" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2495:2581" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2503:2578" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2657:2832" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2836:2913" ph="/* Return true if the space bar is pressed or the screen is touched ... */" />
+            <marker date="1518644439269" expanded="true" signature="2945:3056" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="3062:3141" ph="/* Resets the static variables to not been kept during reseting Scene ... */" />
+            <marker date="1518644439269" expanded="true" signature="3176:3227" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="3232:3448" ph="/* Execute function after few seconds ... */" />
           </folding>
         </state>
       </provider>
@@ -1204,38 +1212,38 @@
         <state relative-caret-position="144">
           <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding>
-            <marker date="1518640601570" expanded="false" signature="6:121" ph="..." />
-            <marker date="1518640601570" expanded="true" signature="166:3453" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="257:314" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="318:481" ph="/* 0: Menu ... */" />
-            <marker date="1518640601570" expanded="true" signature="545:684" ph="/* Called during the class creation ... */" />
-            <marker date="1518640601570" expanded="true" signature="715:720" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="724:850" ph="/* Called every frames ... */" />
-            <marker date="1518640601570" expanded="true" signature="882:1638" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="886:939" ph="/* if(_playing) ... */" />
-            <marker date="1518640601570" expanded="true" signature="965:1635" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1015:1069" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1242:1296" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1425:1483" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1688:1742" ph="/* Called on each frame during the play time ... */" />
-            <marker date="1518640601570" expanded="true" signature="1792:1850" ph="/* Called on each frame during the gameover time ... */" />
-            <marker date="1518640601570" expanded="true" signature="1933:1958" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1992:2016" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2076:2123" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2152:2238" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2160:2235" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2267:2353" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2275:2350" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2380:2466" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2388:2463" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2496:2582" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2504:2579" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2658:2833" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2837:2914" ph="/* Return true if the space bar is pressed or the screen is touched ... */" />
-            <marker date="1518640601570" expanded="true" signature="2946:3057" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="3063:3142" ph="/* Resets the static variables to not been kept during reseting Scene ... */" />
-            <marker date="1518640601570" expanded="true" signature="3177:3228" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="3233:3449" ph="/* Execute function after few seconds ... */" />
+            <marker date="1518644439269" expanded="false" signature="6:121" ph="..." />
+            <marker date="1518644439269" expanded="true" signature="166:3452" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="257:314" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="318:481" ph="/* 0: Menu ... */" />
+            <marker date="1518644439269" expanded="true" signature="545:684" ph="/* Called during the class creation ... */" />
+            <marker date="1518644439269" expanded="true" signature="715:719" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="723:849" ph="/* Called every frames ... */" />
+            <marker date="1518644439269" expanded="true" signature="881:1637" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="885:938" ph="/* if(_playing) ... */" />
+            <marker date="1518644439269" expanded="true" signature="964:1634" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1014:1068" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1241:1295" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1424:1482" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1687:1741" ph="/* Called on each frame during the play time ... */" />
+            <marker date="1518644439269" expanded="true" signature="1791:1849" ph="/* Called on each frame during the gameover time ... */" />
+            <marker date="1518644439269" expanded="true" signature="1932:1957" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1991:2015" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2075:2122" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2151:2237" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2159:2234" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2266:2352" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2274:2349" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2379:2465" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2387:2462" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2495:2581" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2503:2578" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2657:2832" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2836:2913" ph="/* Return true if the space bar is pressed or the screen is touched ... */" />
+            <marker date="1518644439269" expanded="true" signature="2945:3056" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="3062:3141" ph="/* Resets the static variables to not been kept during reseting Scene ... */" />
+            <marker date="1518644439269" expanded="true" signature="3176:3227" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="3232:3448" ph="/* Execute function after few seconds ... */" />
           </folding>
         </state>
       </provider>
@@ -1288,38 +1296,38 @@
         <state relative-caret-position="216">
           <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding>
-            <marker date="1518640601570" expanded="false" signature="6:121" ph="..." />
-            <marker date="1518640601570" expanded="true" signature="166:3453" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="257:314" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="318:481" ph="/* 0: Menu ... */" />
-            <marker date="1518640601570" expanded="true" signature="545:684" ph="/* Called during the class creation ... */" />
-            <marker date="1518640601570" expanded="true" signature="715:720" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="724:850" ph="/* Called every frames ... */" />
-            <marker date="1518640601570" expanded="true" signature="882:1638" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="886:939" ph="/* if(_playing) ... */" />
-            <marker date="1518640601570" expanded="true" signature="965:1635" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1015:1069" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1242:1296" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1425:1483" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1688:1742" ph="/* Called on each frame during the play time ... */" />
-            <marker date="1518640601570" expanded="true" signature="1792:1850" ph="/* Called on each frame during the gameover time ... */" />
-            <marker date="1518640601570" expanded="true" signature="1933:1958" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1992:2016" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2076:2123" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2152:2238" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2160:2235" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2267:2353" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2275:2350" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2380:2466" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2388:2463" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2496:2582" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2504:2579" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2658:2833" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2837:2914" ph="/* Return true if the space bar is pressed or the screen is touched ... */" />
-            <marker date="1518640601570" expanded="true" signature="2946:3057" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="3063:3142" ph="/* Resets the static variables to not been kept during reseting Scene ... */" />
-            <marker date="1518640601570" expanded="true" signature="3177:3228" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="3233:3449" ph="/* Execute function after few seconds ... */" />
+            <marker date="1518644439269" expanded="false" signature="6:121" ph="..." />
+            <marker date="1518644439269" expanded="true" signature="166:3452" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="257:314" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="318:481" ph="/* 0: Menu ... */" />
+            <marker date="1518644439269" expanded="true" signature="545:684" ph="/* Called during the class creation ... */" />
+            <marker date="1518644439269" expanded="true" signature="715:719" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="723:849" ph="/* Called every frames ... */" />
+            <marker date="1518644439269" expanded="true" signature="881:1637" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="885:938" ph="/* if(_playing) ... */" />
+            <marker date="1518644439269" expanded="true" signature="964:1634" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1014:1068" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1241:1295" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1424:1482" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1687:1741" ph="/* Called on each frame during the play time ... */" />
+            <marker date="1518644439269" expanded="true" signature="1791:1849" ph="/* Called on each frame during the gameover time ... */" />
+            <marker date="1518644439269" expanded="true" signature="1932:1957" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1991:2015" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2075:2122" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2151:2237" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2159:2234" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2266:2352" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2274:2349" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2379:2465" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2387:2462" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2495:2581" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2503:2578" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2657:2832" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2836:2913" ph="/* Return true if the space bar is pressed or the screen is touched ... */" />
+            <marker date="1518644439269" expanded="true" signature="2945:3056" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="3062:3141" ph="/* Resets the static variables to not been kept during reseting Scene ... */" />
+            <marker date="1518644439269" expanded="true" signature="3176:3227" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="3232:3448" ph="/* Execute function after few seconds ... */" />
           </folding>
         </state>
       </provider>
@@ -1397,52 +1405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="217" column="38" lean-forward="false" selection-start-line="217" selection-start-column="38" selection-end-line="217" selection-end-column="38" />
-          <folding>
-            <marker date="1518631901661" expanded="false" signature="6:154" ph="..." />
-            <marker date="1518631901661" expanded="true" signature="286:7528" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="290:352" ph="/* All the gameover items which are hidden and shown ... */" />
-            <marker date="1518631901661" expanded="true" signature="522:552" ph="/* Canvas components ... */" />
-            <marker date="1518631901661" expanded="true" signature="598:630" ph="/* The Menu components ... */" />
-            <marker date="1518631901661" expanded="true" signature="703:739" ph="/* The Gameover components ... */" />
-            <marker date="1518631901661" expanded="true" signature="933:1289" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="1325:1373" ph="/* Shows Menu items and hides the rest ... */" />
-            <marker date="1518631901661" expanded="true" signature="1419:2022" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="2027:2079" ph="/* Hide Start Menu item and show play menu ... */" />
-            <marker date="1518631901661" expanded="true" signature="2125:2461" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="2466:2549" ph="/* Update the Score Infos, Hide the play menu and shows the gameover menu ... */" />
-            <marker date="1518631901661" expanded="true" signature="2603:3040" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="2930:3037" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="3046:3077" ph="/* Restars scene ... */" />
-            <marker date="1518631901661" expanded="true" signature="3106:3195" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="3200:3224" ph="/* Share score ... */" />
-            <marker date="1518631901661" expanded="true" signature="3302:4153" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="4156:4193" ph="/* Updates Start menu infos ... */" />
-            <marker date="1518631901661" expanded="true" signature="4225:4330" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="4335:4376" ph="/* Updates Gameover score infos ... */" />
-            <marker date="1518631901661" expanded="true" signature="4409:4683" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="4438:4559" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="4686:4767" ph="/* Slides from right to left ... */" />
-            <marker date="1518631901661" expanded="true" signature="4854:5475" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="5263:5401" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="5478:5564" ph="/* Slide in from bottom to top ... */" />
-            <marker date="1518631901661" expanded="true" signature="5650:6248" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="6036:6174" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="6252:6338" ph="/* Slide in from top to bottom ... */" />
-            <marker date="1518631901661" expanded="true" signature="6427:7023" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="6811:6949" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="7026:7082" ph="/* Blink with fade until component is disabled ... */" />
-            <marker date="1518631901661" expanded="true" signature="7131:7526" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="7293:7522" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="7363:7403" ph="{...}" />
-            <marker date="1518631901661" expanded="true" signature="7432:7473" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemySpawn.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -1456,47 +1418,6 @@
             <marker date="1518553282612" expanded="true" signature="607:631" ph="{...}" />
             <marker date="1518553282612" expanded="true" signature="686:711" ph="{...}" />
             <marker date="1518553282612" expanded="true" signature="752:1154" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="74" column="24" lean-forward="false" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
-          <folding>
-            <marker date="1518640601570" expanded="false" signature="6:121" ph="..." />
-            <marker date="1518640601570" expanded="true" signature="166:3453" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="257:314" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="318:481" ph="/* 0: Menu ... */" />
-            <marker date="1518640601570" expanded="true" signature="545:684" ph="/* Called during the class creation ... */" />
-            <marker date="1518640601570" expanded="true" signature="715:720" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="724:850" ph="/* Called every frames ... */" />
-            <marker date="1518640601570" expanded="true" signature="882:1638" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="886:939" ph="/* if(_playing) ... */" />
-            <marker date="1518640601570" expanded="true" signature="965:1635" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1015:1069" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1242:1296" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1425:1483" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1688:1742" ph="/* Called on each frame during the play time ... */" />
-            <marker date="1518640601570" expanded="true" signature="1792:1850" ph="/* Called on each frame during the gameover time ... */" />
-            <marker date="1518640601570" expanded="true" signature="1933:1958" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="1992:2016" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2076:2123" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2152:2238" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2160:2235" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2267:2353" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2275:2350" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2380:2466" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2388:2463" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2496:2582" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2504:2579" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2658:2833" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="2837:2914" ph="/* Return true if the space bar is pressed or the screen is touched ... */" />
-            <marker date="1518640601570" expanded="true" signature="2946:3057" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="3063:3142" ph="/* Resets the static variables to not been kept during reseting Scene ... */" />
-            <marker date="1518640601570" expanded="true" signature="3177:3228" ph="{...}" />
-            <marker date="1518640601570" expanded="true" signature="3233:3449" ph="/* Execute function after few seconds ... */" />
           </folding>
         </state>
       </provider>
@@ -1521,7 +1442,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Item.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
           <folding>
             <marker date="1518642284059" expanded="false" signature="6:78" ph="..." />
             <marker date="1518642284059" expanded="true" signature="105:628" ph="{...}" />
@@ -1537,7 +1458,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="126" column="44" lean-forward="true" selection-start-line="126" selection-start-column="44" selection-end-line="126" selection-end-column="44" />
+          <caret line="126" column="44" lean-forward="false" selection-start-line="126" selection-start-column="44" selection-end-line="126" selection-end-column="44" />
           <folding>
             <marker date="1518642750427" expanded="false" signature="6:108" ph="..." />
             <marker date="1518642750427" expanded="true" signature="136:3073" ph="{...}" />
@@ -1562,8 +1483,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <marker date="1518553282760" expanded="false" signature="6:78" ph="..." />
             <marker date="1518553282760" expanded="true" signature="105:890" ph="{...}" />
@@ -1572,6 +1493,96 @@
             <marker date="1518553282760" expanded="true" signature="745:752" ph="{...}" />
             <marker date="1518553282760" expanded="true" signature="799:806" ph="{...}" />
             <marker date="1518553282760" expanded="true" signature="861:888" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-212">
+          <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding>
+            <marker date="1518644439269" expanded="false" signature="6:121" ph="..." />
+            <marker date="1518644439269" expanded="true" signature="166:3452" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="257:314" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="318:481" ph="/* 0: Menu ... */" />
+            <marker date="1518644439269" expanded="true" signature="545:684" ph="/* Called during the class creation ... */" />
+            <marker date="1518644439269" expanded="true" signature="715:719" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="723:849" ph="/* Called every frames ... */" />
+            <marker date="1518644439269" expanded="true" signature="881:1637" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="885:938" ph="/* if(_playing) ... */" />
+            <marker date="1518644439269" expanded="true" signature="964:1634" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1014:1068" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1241:1295" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1424:1482" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1687:1741" ph="/* Called on each frame during the play time ... */" />
+            <marker date="1518644439269" expanded="true" signature="1791:1849" ph="/* Called on each frame during the gameover time ... */" />
+            <marker date="1518644439269" expanded="true" signature="1932:1957" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="1991:2015" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2075:2122" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2151:2237" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2159:2234" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2266:2352" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2274:2349" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2379:2465" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2387:2462" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2495:2581" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2503:2578" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2657:2832" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="2836:2913" ph="/* Return true if the space bar is pressed or the screen is touched ... */" />
+            <marker date="1518644439269" expanded="true" signature="2945:3056" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="3062:3141" ph="/* Resets the static variables to not been kept during reseting Scene ... */" />
+            <marker date="1518644439269" expanded="true" signature="3176:3227" ph="{...}" />
+            <marker date="1518644439269" expanded="true" signature="3232:3448" ph="/* Execute function after few seconds ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="213" column="89" lean-forward="false" selection-start-line="213" selection-start-column="89" selection-end-line="213" selection-end-column="89" />
+          <folding>
+            <marker date="1518644575531" expanded="false" signature="6:154" ph="..." />
+            <marker date="1518644575531" expanded="true" signature="286:8350" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="290:352" ph="/* All the gameover items which are hidden and shown ... */" />
+            <marker date="1518644575531" expanded="true" signature="522:552" ph="/* Canvas components ... */" />
+            <marker date="1518644575531" expanded="true" signature="598:630" ph="/* The Menu components ... */" />
+            <marker date="1518644575531" expanded="true" signature="703:739" ph="/* The Gameover components ... */" />
+            <marker date="1518644575531" expanded="true" signature="993:1401" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="1437:1485" ph="/* Shows Menu items and hides the rest ... */" />
+            <marker date="1518644575531" expanded="true" signature="1531:2134" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="2139:2191" ph="/* Hide Start Menu item and show play menu ... */" />
+            <marker date="1518644575531" expanded="true" signature="2237:2573" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="2578:2661" ph="/* Update the Score Infos, Hide the play menu and shows the gameover menu ... */" />
+            <marker date="1518644575531" expanded="true" signature="2715:3152" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="3042:3149" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="3158:3189" ph="/* Restars scene ... */" />
+            <marker date="1518644575531" expanded="true" signature="3218:3307" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="3312:3336" ph="/* Share score ... */" />
+            <marker date="1518644575531" expanded="true" signature="3414:4265" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="4268:4305" ph="/* Updates Start menu infos ... */" />
+            <marker date="1518644575531" expanded="true" signature="4337:4442" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="4447:4488" ph="/* Updates Gameover score infos ... */" />
+            <marker date="1518644575531" expanded="true" signature="4521:5125" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="4570:4691" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="5128:5209" ph="/* Slides from right to left ... */" />
+            <marker date="1518644575531" expanded="true" signature="5296:5917" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="5705:5843" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="5920:6006" ph="/* Slide in from bottom to top ... */" />
+            <marker date="1518644575531" expanded="true" signature="6092:6690" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="6478:6616" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="6694:6780" ph="/* Slide in from top to bottom ... */" />
+            <marker date="1518644575531" expanded="true" signature="6869:7465" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7253:7391" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7468:7524" ph="/* Blink with fade until component is disabled ... */" />
+            <marker date="1518644575531" expanded="true" signature="7573:7968" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7735:7964" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7805:7845" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7874:7915" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="7972:8010" ph="/* Increase number animation ... */" />
+            <marker date="1518644575531" expanded="true" signature="8106:8347" ph="{...}" />
+            <marker date="1518644575531" expanded="true" signature="8247:8344" ph="{...}" />
           </folding>
         </state>
       </provider>

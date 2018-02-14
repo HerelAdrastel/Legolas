@@ -37,9 +37,11 @@ public class UI : Game {
 	 */
 	public Transform ScoreComponent;
 	public Transform HighscoreComponent;
+	public Transform PointComponent;
 
 	private Text _scoreText;
 	private Text _highscoreText;
+	private Text _pointText;
 
 	// Use this for initialization
 	public override void Start () {
@@ -54,6 +56,7 @@ public class UI : Game {
 		
 		_scoreText = ScoreComponent.GetComponent<Text>();
 		_highscoreText = HighscoreComponent.GetComponent<Text>();
+		_pointText = PointComponent.GetComponent<Text>();
 	}
 
 	
@@ -188,6 +191,7 @@ public class UI : Game {
 	 */
 	public void UpdateScoreInfos() {
 
+		// Save highscore
 		if (Score > _highscore) {
 			_highscore = Score;
 
@@ -196,9 +200,19 @@ public class UI : Game {
 			PlayerPrefs.Save();
 		}
 		
+		// Save points
+		int storedPoints = PlayerPrefs.GetInt("points", 0);
+		storedPoints += Points;
+		PlayerPrefs.SetInt("points", storedPoints);
+		PlayerPrefs.Save();
+		
 		// Display score and highscore
 		_scoreText.text = Score.ToString();
 		_highscoreText.text = _highscore.ToString();
+		//_pointText.text = storedPoints.ToString();
+
+		StartCoroutine(IncreaseNumber(_pointText, storedPoints - Points, storedPoints, 10, 1.5f));
+
 	}
 
 	/**
@@ -308,4 +322,24 @@ public class UI : Game {
 			yield return null;
 		} 
 	}
+	
+	/**
+	 * Increase number animation
+	 */
+	public IEnumerator IncreaseNumber(Text text, int from, int to, float speed, float startAfter) {
+		
+		text.text = from.ToString();
+		
+		Debug.Log(from + " " + to);
+		yield return new WaitForSeconds(startAfter);
+
+		
+		while (from <= to) {
+
+			text.text = from.ToString();
+			from++;
+
+			yield return new WaitForSeconds(1 / speed);
+		}
+	} 
 }
