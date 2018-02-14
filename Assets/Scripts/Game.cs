@@ -7,6 +7,7 @@ using Random = UnityEngine.Random;
 public abstract class Game : MonoBehaviour {
 
 	protected static int Score;
+	protected static int Points;
 
 
 	public static string Name {
@@ -160,6 +161,7 @@ public abstract class Game : MonoBehaviour {
 	public static void ResetStatic() {
 		_globalState = 0;
 		Score = 0;
+		Points = 0;
 	}
 
 	

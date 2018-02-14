@@ -9,6 +9,7 @@ public class Player : Game
 
 	public float Velocity;
 	public float Force;
+	public int PointMultiplier;
 	
 	// The ScoreComponent shown during playing
 	public Transform ScoreComponent;
@@ -106,8 +107,7 @@ public class Player : Game
 		Destroy(gameObject);
 	}
 
-	public void Jump()
-	{
+	public void Jump() {
 		// Resets the verical velocity
 		_rigidbody.velocity = new Vector2 (_rigidbody.velocity.x, 0);
 		
@@ -115,14 +115,21 @@ public class Player : Game
 		_rigidbody.AddForce(Vector2.up * Force, ForceMode2D.Impulse);
 	}
 
-	public void IncreaseScore()
-	{
+	public void IncreaseScore() {
 		Score++;
 		_scoreText.text = Score.ToString();
 	}
 
-	public void OnTriggerEnter2D(Collider2D other)
-	{
-		GameOver();
+	public void OnTriggerEnter2D(Collider2D other) {
+		if(other.CompareTag("Enemy"))
+			GameOver();
+		
+		else if (other.CompareTag("Item")) {
+			Points += PointMultiplier;
+			Destroy(other.gameObject);
+		}
+
+		else
+			throw new Exception("Unknown tag name");
 	}
 }
