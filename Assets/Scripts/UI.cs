@@ -87,9 +87,9 @@ public class UI : Game {
 		if(MenuItems.Length != 3)
 			throw new Exception("MenuItems must contain 3 elements");
 
-		StartCoroutine(SlideBottom(MenuItems[0], 1, 0));
+		StartCoroutine(SlideBottom(MenuItems[0], 0.75f, 0));
 		StartCoroutine(Blink(MenuItems[1]));
-		StartCoroutine(SlideTop(MenuItems[2], 1, 0));
+		StartCoroutine(SlideTop(MenuItems[2], 0.75f, 0));
 
 	}
 
@@ -215,6 +215,7 @@ public class UI : Game {
 
 	}
 
+	// todo : bord arrondis
 	/**
 	 * Slides from right to left
 	 *
@@ -330,7 +331,6 @@ public class UI : Game {
 		
 		text.text = from.ToString();
 		
-		Debug.Log(from + " " + to);
 		yield return new WaitForSeconds(startAfter);
 
 		

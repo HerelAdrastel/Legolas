@@ -10,7 +10,7 @@ public class Item : Game {
 	private Rigidbody2D _rigidbody;
 
 	// Use this for initialization
-	public void Start () {
+	public override void Start () {
 		_rigidbody = GetComponent<Rigidbody2D>();
 		_rigidbody.velocity = Vector2.down * Velocity;
 		

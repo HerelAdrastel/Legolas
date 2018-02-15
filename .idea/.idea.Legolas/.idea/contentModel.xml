@@ -20,7 +20,9 @@
           <e p="Interval.cs" t="Include" />
           <e p="Item.cs" t="Include" />
           <e p="ItemSpawn.cs" t="Include" />
+          <e p="Locked.cs" t="Include" />
           <e p="Player.cs" t="Include" />
+          <e p="Shop.cs" t="Include" />
           <e p="UI.cs" t="Include" />
         </e>
       </e>
