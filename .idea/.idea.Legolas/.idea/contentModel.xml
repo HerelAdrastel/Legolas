@@ -85,7 +85,6 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="Interval.cs" t="Include" />
           <e p="Main" t="Include">
             <e p="Enemy.cs" t="Include" />
             <e p="EnemySpawn.cs" t="Include" />
@@ -97,7 +96,12 @@
           </e>
           <e p="Shop" t="Include">
             <e p="ShopButton.cs" t="Include" />
-            <e p="ShopUI.cs" t="Include" />
+            <e p="UI.cs" t="Include" />
+          </e>
+          <e p="Tools" t="Include">
+            <e p="Ad.cs" t="Include" />
+            <e p="Interval.cs" t="Include" />
+            <e p="Toaster.cs" t="Include" />
           </e>
         </e>
       </e>

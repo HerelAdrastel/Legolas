@@ -1,50 +1,52 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Tools;
 using UnityEngine;
 
-public class ItemSpawn : Game {
-
-	public Transform Item;
+namespace Main {
 	
-	public float Interval;
+	public class ItemSpawn : Game {
 
-	private Interval _interval;
-
-	// Use this for initialization
-	public override void Start () {
-		_interval = new Interval(SpawnEnemy, Interval);
-		
-		base.Start();
-	}
+		public Transform Item;
 	
-	// Update is called once per frame
-	public override void Update () {
-		base.Update();
-		_interval.Update(Time.deltaTime);
-	}
+		public float Interval;
 
-	public override void OnMenu(bool setToMenu) {
-		_interval.Pause();
-	}
+		private Interval _interval;
 
-	public override void OnPlay(bool setToPlay) {
-		_interval.Play();
-	}
-
-	public override void OnGameOver(bool setToGameOver) {
-		_interval.Pause();
-	}
-
-	public void SpawnEnemy(int iterations) {
+		// Use this for initialization
+		public override void Start () {
+			_interval = new Interval(SpawnEnemy, Interval);
 		
-		Transform item = Instantiate(Item);
+			base.Start();
+		}
+	
+		// Update is called once per frame
+		public override void Update () {
+			base.Update();
+			_interval.Update(Time.deltaTime);
+		}
 
-		PolygonCollider2D collider = item.GetComponent<PolygonCollider2D>();
+		public override void OnMenu(bool setToMenu) {
+			_interval.Pause();
+		}
 
-		float halfSize = collider.bounds.size.x / 2;
+		public override void OnPlay(bool setToPlay) {
+			_interval.Play();
+		}
+
+		public override void OnGameOver(bool setToGameOver) {
+			_interval.Pause();
+		}
+
+		public void SpawnEnemy(int iterations) {
 		
-		float x = RandomFloat(Left + halfSize, Right - halfSize);
+			Transform item = Instantiate(Item);
 
-		item.position = new Vector3(x, transform.position.y, transform.position.z);
+			PolygonCollider2D collider = item.GetComponent<PolygonCollider2D>();
+
+			float halfSize = collider.bounds.size.x / 2;
+		
+			float x = RandomFloat(Left + halfSize, Right - halfSize);
+
+			item.position = new Vector3(x, transform.position.y, transform.position.z);
+		}
 	}
 }
