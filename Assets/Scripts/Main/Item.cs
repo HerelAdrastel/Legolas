@@ -28,6 +28,11 @@ namespace Main {
 		public override void OnGameOver(bool setToGameOver) {
 			Destroy(gameObject);
 		}
+		
+		public void OnTriggerEnter2D(Collider2D other) {
+			if(other.CompareTag("Enemy"))
+				Destroy(gameObject);
+		}
 	
 	
 	}
