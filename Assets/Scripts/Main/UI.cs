@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using GoogleMobileAds.Api;
 using Tools;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -163,7 +165,32 @@ namespace Main {
         /**
          * Share score
          */
-        public void OnShareClick() {
+        public void OnShareApp() {
+
+            string text =
+                string.Format(
+                    "Wow ! I made {0} points on WallBall ! " +
+                    "https://play.google.com/store/apps/details?id=com.adrastel.legolas", 
+                    Points);
+
+            AndroidJavaClass intentClass = new AndroidJavaClass("android.content.Intent");
+            AndroidJavaClass unityPlayerClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+            
+            AndroidJavaObject intent = new AndroidJavaObject("android.content.Intent");
+            intent.Call<AndroidJavaObject>("setAction", intentClass.GetStatic<string>("ACTION_SEND"));
+            intent.Call<AndroidJavaObject>("putExtra", intentClass.GetStatic<string>("EXTRA_TEXT"), text);
+            intent.Call<AndroidJavaObject>("setType", "text/plain");
+            
+            AndroidJavaObject currentActivity = unityPlayerClass.GetStatic<AndroidJavaObject>("currentActivity");
+            AndroidJavaObject chooser = intentClass.CallStatic<AndroidJavaObject>("createChooser", intent, "Share");
+            currentActivity.Call("startActivity", chooser);
+        }
+        
+        /**
+         * Redirects to Play store
+         */
+        public void OnRateApp() {
+            Application.OpenURL ("market://details?id=com.adrastel.legolas");
         }
 
         public void OnShowAd() {
@@ -349,5 +376,7 @@ namespace Main {
                 yield return new WaitForSeconds(1 / speed);
             }
         }
+        
+        
     }
 }

@@ -15,6 +15,10 @@ namespace Main {
 		public Text ScoreText;
 	
 		public ParticleSystem PlayerDeath;
+		
+		public AudioClip JumpSound;
+		public AudioClip PointSound;
+		public AudioClip GameOverSound;
 
 
 		private Rigidbody2D _rigidbody;
@@ -36,6 +40,14 @@ namespace Main {
 			_previousDirection = _direction;
 
 			_radius = _collider.bounds.size.x / 2;
+
+			// Set player appearance
+			int skin = PlayerPrefs.GetInt("selected", 0);
+			string path = string.Format("Player/{0}", skin);
+			Sprite sprite = Resources.Load(path, typeof(Sprite)) as Sprite;
+			GetComponent<SpriteRenderer>().sprite = sprite;
+	
+
 			
 			base.Start();
 		}
@@ -100,6 +112,7 @@ namespace Main {
 
 			if (setToGameOver) {
 				PlayParticle(PlayerDeath, transform.position);
+				AudioSource.PlayClipAtPoint(GameOverSound, transform.position);
 			}
 
 			Destroy(gameObject);
@@ -111,6 +124,9 @@ namespace Main {
 		
 			// Jump
 			_rigidbody.AddForce(Vector2.up * Force, ForceMode2D.Impulse);
+			
+			// Jump noise
+			AudioSource.PlayClipAtPoint(JumpSound, transform.position);
 		}
 
 		public void IncreaseScore() {
@@ -124,37 +140,12 @@ namespace Main {
 		
 			else if (other.CompareTag("Item")) {
 				Points += PointMultiplier;
+				AudioSource.PlayClipAtPoint(PointSound, transform.position);
 				Destroy(other.gameObject);
 			}
 
 			else
 				throw new Exception("Unknown tag name");
-		}
-		
-		public void HandleOnAdLoaded(object sender, EventArgs args)
-		{
-			Debug.Log("HandleAdLoaded event received");
-		}
-
-		public void HandleOnAdFailedToLoad(object sender, AdFailedToLoadEventArgs args)
-		{
-			Debug.Log("HandleFailedToReceiveAd event received with message: "
-			                    + args.Message);
-		}
-
-		public void HandleOnAdOpened(object sender, EventArgs args)
-		{
-			Debug.Log("HandleAdOpened event received");
-		}
-
-		public void HandleOnAdClosed(object sender, EventArgs args)
-		{
-			Debug.Log("HandleAdClosed event received");
-		}
-
-		public void HandleOnAdLeftApplication(object sender, EventArgs args)
-		{
-			Debug.Log("HandleAdLeftApplication event received");
 		}
 		
 	}

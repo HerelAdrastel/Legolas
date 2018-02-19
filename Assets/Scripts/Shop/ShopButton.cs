@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics.CodeAnalysis;
+using Tools;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -29,7 +30,7 @@ namespace Shop {
 	
 		// Update is called once per frame
 		public void Update () {
-		
+			
 		}
 
 		/**

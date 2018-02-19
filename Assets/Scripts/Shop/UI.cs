@@ -11,11 +11,11 @@ namespace Shop {
 
 		public Text PointText;
 		public Transform Button;
-
+        
 		private static int _points;
-	
+		
 		public static int[] Prices = {
-			25, 25, 25, 50, 50, 100
+			0, 25, 25, 50, 50, 100
 		};
 	
 		// Use this for initialization
@@ -35,7 +35,10 @@ namespace Shop {
 		public void LoadButtons() {
 			for (int i = 0; i < Prices.Length; i++) {
 
-				bool isUnlocked = PlayerPrefs.GetInt(i.ToString(), 0) == 1;
+				// Unlock by default the first item
+				int unlockByDefault = i == 0 ? 1 : 0;
+				
+				bool isUnlocked = PlayerPrefs.GetInt(i.ToString(), unlockByDefault) == 1;
 				bool isSelected = PlayerPrefs.GetInt("selected", 0) == i;
 			
 				Transform button = Instantiate(Button);

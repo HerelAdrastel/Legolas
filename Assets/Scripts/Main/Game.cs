@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
@@ -16,29 +18,31 @@ using Random = UnityEngine.Random;
 		}
 	
 		/**
-	 * 0: Menu
-	 * 1: Play
-	 * 2: GameOver
-	 * 
-	 * We use a global state to be sure that in all the game child, the setToPlay and setToGameover are executed
-	 */
+		 * 0: Menu
+		 * 1: Play
+		 * 2: GameOver
+		 * 
+		 * We use a global state to be sure that in all the game child, the setToPlay and setToGameover are executed
+		 */
 		private static int _globalState;
 		private int _state = -1;
 	
 		/**
-	 * Called during the class creation
-	 * The children classes must override the method and add base.Start at the END of the method
-	 */
+		 * Called during the class creation
+		 * The children classes must override the method and add base.Start at the END of the method
+		 */
 		public virtual void Start () {
 			Debug.Log(_state);
 		}
 	
 		/**
-	 * Called every frames
-	 * The children classes must override the method and add base.Start at the END of the method
-	 */
+		 * Called every frames
+		 * The children classes must override the method and add base.Start at the END of the method
+		 */
 		public virtual void Update () {
-	
+			
+			
+			
 			switch (_globalState) {
 		
 				// Menu
@@ -90,14 +94,15 @@ using Random = UnityEngine.Random;
 
 
 		public abstract void OnMenu(bool setToMenu);
+		
 		/**
-	 * Called on each frame during the play time
-	 */
+		 * Called on each frame during the play time
+		 */
 		public abstract void OnPlay(bool setToPlay);
 	
 		/**
-	 * Called on each frame during the gameover time
-	 */
+		 * Called on each frame during the gameover time
+		 */
 		public abstract void OnGameOver(bool setToGameOver);
 
 		public static void Play() {
@@ -143,19 +148,25 @@ using Random = UnityEngine.Random;
 			Destroy(particleSystem.gameObject, particleSystem.main.startLifetime.constant);
 		}
 	
-		/**
-	 * Return true if the space bar is pressed or the screen is touched
-	 */
-		//todo : ENORME BUG, istouched prend devant le bouton
-		public static bool IsTouched()
-		{
-			return Input.GetKeyDown(KeyCode.Space) || Input.touches.Any(touch => touch.phase == TouchPhase.Began);
+	
+		public static bool IsTouched(){
+			return Input.GetKeyDown(KeyCode.Space) || Input.touches.Any(touch => touch.phase == TouchPhase.Began && !IsTouchingButton(touch));
+		}
+		
+		public static bool IsTouchingButton(Touch touch) {
+			PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
+			eventDataCurrentPosition.position = new Vector2(touch.position.x, touch.position.y);
+  
+			List<RaycastResult> results = new List<RaycastResult>();
+			EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
+
+			return results.Any(result => result.gameObject.name == "Shop");
+			
 		}
 	
-	
 		/**
-	 * Resets the static variables to not been kept during reseting Scene
-	 */
+		 * Resets the static variables to not been kept during reseting Scene
+		 */
 		public static void ResetStatic() {
 			_globalState = 0;
 			Score = 0;
@@ -163,19 +174,6 @@ using Random = UnityEngine.Random;
 		}
 
 	
-		/**
-	 * Execute function after few seconds
-	 *
-	 * public void main() {
-	 *	StartCoroutine(waitAndRun())
-	 * }
-	 *
-	 * public IEnumerator waitAndRun() {
-	 *
-	 * 	yield WaitForSeconds(1);
-	 *  blablabla
-	 *
-	 * }
-	 */
+		
 	
 	}
