@@ -1,0 +1,11 @@
+2.2:
+Store added
+Ads added
+Animations added
+Sounds added
+
+2.3:
+Enemies move slowly
+
+2.4:
+Music added with a singleton pattern
