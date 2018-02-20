@@ -88,6 +88,7 @@
           <e p="Tools" t="Include">
             <e p="Ad.cs" t="Include" />
             <e p="Interval.cs" t="Include" />
+            <e p="Singleton.cs" t="Include" />
             <e p="Toaster.cs" t="Include" />
           </e>
         </e>
