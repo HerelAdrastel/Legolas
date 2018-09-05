@@ -44,6 +44,11 @@ namespace Main {
         public Text ScoreText;
         public Text HighscoreText;
         public Text PointText;
+        
+        /**
+         * Audios
+         */
+        public AudioClip startSound;
 
         // Use this for initialization
         public override void Start() {
@@ -114,6 +119,9 @@ namespace Main {
             _gamePlayed++;
             PlayerPrefs.SetInt("gameplayed", _gamePlayed);
             PlayerPrefs.Save();
+            
+            // Play Sound
+            AudioSource.PlayClipAtPoint(startSound, Vector3.zero);
         }
 
 
@@ -139,9 +147,6 @@ namespace Main {
                 StartCoroutine(SlideLeft(item, durationPerItem, startAfter));
                 startAfter += durationPerItem / 2;
             }
-
-            if (CanShowAd())
-                Ad.GetInstance().ShowInterstitial();
         }
         
         /**
