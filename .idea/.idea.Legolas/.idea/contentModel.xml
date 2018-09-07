@@ -4,10 +4,65 @@
     <e p="C:\Users\Thomas\.Rider2018.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Thomas\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Legolas.-762443195.00" t="ExcludeRecursive" />
     <e p="D:\UnityProjects\Legolas" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Animations" t="Include">
+          <e p="Player" t="Include">
+            <e p="IDLE.cs" t="Include" />
+          </e>
+        </e>
         <e p="Plugins" t="Include">
+          <e p="2D-Light-of-Sight-Unity" t="Include">
+            <e p="Core" t="Include">
+              <e p="Event" t="Include">
+                <e p="LOSEventManager.cs" t="Include" />
+                <e p="LOSEventSource.cs" t="Include" />
+                <e p="LOSEventTrigger.cs" t="Include" />
+              </e>
+              <e p="LOSCamera.cs" t="Include" />
+              <e p="LOSFullScreenLight.cs" t="Include" />
+              <e p="LOSLightBase.cs" t="Include" />
+              <e p="LOSManager.cs" t="Include" />
+              <e p="LOSObjectBase.cs" t="Include" />
+              <e p="LOSObstacle.cs" t="Include" />
+              <e p="LOSRadialLight.cs" t="Include" />
+            </e>
+            <e p="Editor" t="Include">
+              <e p="LOSFullScreenLightEditor.cs" t="Include" />
+              <e p="LOSLightBaseEditor.cs" t="Include" />
+              <e p="LOSMenu.cs" t="Include" />
+              <e p="LOSRadialLightEditor.cs" t="Include" />
+            </e>
+            <e p="Examples" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="ChangeColorOnLOSEvent.cs" t="Include" />
+                <e p="ChangeTextColorOnLOSEvent.cs" t="Include" />
+                <e p="FlipX.cs" t="Include" />
+                <e p="Flowing.cs" t="Include" />
+                <e p="Follow.cs" t="Include" />
+                <e p="Move.cs" t="Include" />
+                <e p="MoveAccordingToDirection.cs" t="Include" />
+                <e p="MovePhysics.cs" t="Include" />
+                <e p="Rotate.cs" t="Include" />
+                <e p="RotateLight.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Resources" t="Include">
+              <e p="Shaders" t="Include">
+                <e p="Basic.shader" t="Include" />
+                <e p="GreyscaleBackground.shader" t="Include" />
+                <e p="GreyscaleForeground.shader" t="Include" />
+                <e p="RadialLight.shader" t="Include" />
+                <e p="RadialLightPlus.shader" t="Include" />
+              </e>
+            </e>
+            <e p="Utilities" t="Include">
+              <e p="SHelper.cs" t="Include" />
+              <e p="SMath.cs" t="Include" />
+            </e>
+          </e>
           <e p="Android" t="Include">
             <e p="GoogleMobileAdsPlugin" t="Include">
               <e p="AndroidManifest.xml" t="Include" />
@@ -45,6 +100,9 @@
               <e p="MobileAdsEventExecutor.cs" t="Include" />
               <e p="Utils.cs" t="Include" />
             </e>
+            <e p="Editor" t="Include">
+              <e p="GoogleMobileAdsDependencies.xml" t="Include" />
+            </e>
             <e p="Platforms" t="Include">
               <e p="Android" t="Include">
                 <e p="AdLoaderClient.cs" t="Include" />
@@ -69,6 +127,11 @@
                 <e p="RewardBasedVideoAdClient.cs" t="Include" />
                 <e p="Utils.cs" t="Include" />
               </e>
+            </e>
+          </e>
+          <e p="PlayServicesResolver" t="Include">
+            <e p="Editor" t="Include">
+              <e p="play-services-resolver_v1.2.61.0.txt" t="Include" />
             </e>
           </e>
         </e>

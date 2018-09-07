@@ -25,7 +25,7 @@ namespace Main {
 
         private static int _highscore;
         private static int _gamePlayed;
-        
+        // todo: reverse engineering sur les jeux de light et shadow
         
         /**
          * Canvas components;
@@ -114,7 +114,7 @@ namespace Main {
             // Shows play menu
             PlayItem.SetActive(true);
 
-
+            // todo: animation scale lors du saut
             // Adds 1 to gamePlayed
             _gamePlayed++;
             PlayerPrefs.SetInt("gameplayed", _gamePlayed);

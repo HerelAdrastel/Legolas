@@ -23,6 +23,7 @@ namespace Main {
 
 		private Rigidbody2D _rigidbody;
 		private CircleCollider2D _collider;
+		private Animator _animator;
 	
 		private enum Direction{Left = -1, Right = 1}
 
@@ -35,6 +36,7 @@ namespace Main {
 		public override void Start () {
 			_rigidbody = GetComponent<Rigidbody2D>();
 			_collider = GetComponent<CircleCollider2D>();
+			_animator = GetComponent<Animator>();
 
 			_direction = Random.value < 0.5 ? Direction.Left : Direction.Right;
 			_previousDirection = _direction;
@@ -61,7 +63,7 @@ namespace Main {
 				_direction = Direction.Right;
 			
 				if(_previousDirection != _direction)
-					IncreaseScore();
+					OnDirectionChanged();
 			
 			} 
 		
@@ -69,7 +71,7 @@ namespace Main {
 			else if (transform.position.x > Right - _radius) {
 				_direction = Direction.Left;
 				if(_previousDirection != _direction) 
-					IncreaseScore();
+					OnDirectionChanged();
 			}
 
 			_previousDirection = _direction;
@@ -146,6 +148,15 @@ namespace Main {
 
 			else
 				throw new Exception("Unknown tag name");
+		}
+
+		public void TriggerBounceAnimation() {
+			_animator.SetBool("Bounce", true);
+		}
+
+		public void OnDirectionChanged() {
+			IncreaseScore();
+			TriggerBounceAnimation();
 		}
 		
 	}

@@ -19,7 +19,7 @@ namespace Main {
 		
 			base.Start();
 		}
-	
+		// todo: mettre des layers (enemis collide avec item)
 		// Update is called once per frame
 		public override void Update () {
 		
