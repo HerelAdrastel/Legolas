@@ -8,11 +8,6 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Animations" t="Include">
-          <e p="Player" t="Include">
-            <e p="IDLE.cs" t="Include" />
-          </e>
-        </e>
         <e p="Plugins" t="Include">
           <e p="2D-Light-of-Sight-Unity" t="Include">
             <e p="Core" t="Include">
