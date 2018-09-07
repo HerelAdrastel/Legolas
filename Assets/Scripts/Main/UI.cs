@@ -1,11 +1,7 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
-using GoogleMobileAds.Api;
-using Tools;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -59,9 +55,6 @@ namespace Main {
             _canvasTransform = GetComponent<RectTransform>();
 
             _gamePlayed = PlayerPrefs.GetInt("gameplayed", 0);
-            
-            // Load ads
-            Ad.GetInstance().Reward.OnAdRewarded += RewardLoaded;
         }
 
         
@@ -197,10 +190,6 @@ namespace Main {
         public void OnRateApp() {
             Application.OpenURL ("market://details?id=com.adrastel.legolas");
         }
-
-        public void OnShowAd() {
-            Ad.GetInstance().ShowReward();
-        }
         
         
         public static bool CanShowAd() {
@@ -239,14 +228,7 @@ namespace Main {
 
             StartCoroutine(IncreaseNumber(PointText, storedPoints - Points, storedPoints, 10, 1.5f));
         }
-        
-        private void RewardLoaded(object sender, Reward e) {
-
-            int points = 20;
-            
-            int storedPoints = AddPoints(20);
-            StartCoroutine(IncreaseNumber(PointText, storedPoints - points, storedPoints, 10, 1.5f));
-        }
+       
 
         public int AddPoints(int points) {
             int storedPoints = PlayerPrefs.GetInt("points", 0);
@@ -257,8 +239,6 @@ namespace Main {
             return storedPoints;
         }
 
-        // todo : bord arrondis
-        
         /**
          * Slide right to left
          * The X anchor must be set to center

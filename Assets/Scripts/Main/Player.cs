@@ -1,6 +1,4 @@
 ﻿using System;
-using GoogleMobileAds.Api;
-using Tools;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;

@@ -3,18 +3,279 @@
   <component name="ChangeListManager">
     <list default="true" id="c060e094-6cc6-430d-974c-ed1728cf4fc1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Legolas/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Legolas/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Shop.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Shop.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/diamond.bak.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/diamond.bak.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/diamond.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/diamond.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/diamond.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/diamond.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/diamond2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/diamond2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/white.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Shop.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Shop.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WallBall.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WallBall.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/Event.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/Event/LOSEventManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/Event/LOSEventManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/Event/LOSEventSource.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/Event/LOSEventSource.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/Event/LOSEventTrigger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/Event/LOSEventTrigger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/LOSCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/LOSCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/LOSFullScreenLight.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/LOSFullScreenLight.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/LOSLightBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/LOSLightBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/LOSManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/LOSManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/LOSObjectBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/LOSObjectBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/LOSObstacle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/LOSObstacle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/LOSRadialLight.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/LOSRadialLight.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Editor/LOSFullScreenLightEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Editor/LOSFullScreenLightEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Editor/LOSLightBaseEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Editor/LOSLightBaseEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Editor/LOSMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Editor/LOSMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Editor/LOSRadialLightEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Editor/LOSRadialLightEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Resources/Images.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Resources/Images/diver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Resources/Images/diver.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Resources/Images/diver_mask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Resources/Images/diver_mask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Resources/Images/grid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Resources/Images/grid.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Resources/Images/underwater_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Resources/Images/underwater_background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Resources/Images/white_wall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Resources/Images/white_wall.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Resources/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Resources/Materials/Floor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Resources/Materials/Floor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Resources/Materials/Yellow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Resources/Materials/Yellow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Resources/Materials/black.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Resources/Materials/black.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scenes/Full Screen Light.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scenes/Full Screen Light.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scenes/Radial Lights.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scenes/Radial Lights.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scripts/ChangeColorOnLOSEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scripts/ChangeColorOnLOSEvent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scripts/ChangeTextColorOnLOSEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scripts/ChangeTextColorOnLOSEvent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scripts/FlipX.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scripts/FlipX.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scripts/Flowing.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scripts/Flowing.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scripts/Follow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scripts/Follow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scripts/Move.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scripts/Move.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scripts/MoveAccordingToDirection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scripts/MoveAccordingToDirection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scripts/MovePhysics.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scripts/MovePhysics.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scripts/Rotate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scripts/Rotate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scripts/RotateLight.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Examples/Scripts/RotateLight.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/LICENSE.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Images.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Images/radial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Images/radial.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Images/white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Images/white.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Materials/Basic.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Materials/Basic.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Materials/GreyscaleBackground.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Materials/GreyscaleBackground.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Materials/GreyscaleLight.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Materials/GreyscaleLight.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Materials/RadialLight.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Materials/RadialLight.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Materials/RadialLightPlus.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Materials/RadialLightPlus.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Shaders/Basic.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Shaders/Basic.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Shaders/GreyscaleBackground.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Shaders/GreyscaleBackground.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Shaders/GreyscaleForeground.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Shaders/GreyscaleForeground.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Shaders/RadialLight.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Shaders/RadialLight.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Shaders/RadialLightPlus.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Shaders/RadialLightPlus.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Utilities.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Utilities/SHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Utilities/SHelper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Utilities/SMath.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Utilities/SMath.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/AdFailedToLoadEventArgs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/AdFailedToLoadEventArgs.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/AdLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/AdLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/AdPosition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/AdPosition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/AdRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/AdRequest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/AdSize.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/AdSize.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/BannerView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/BannerView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/CustomNativeEventArgs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/CustomNativeEventArgs.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/CustomNativeTemplateAd.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/CustomNativeTemplateAd.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/Gender.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/Gender.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/InterstitialAd.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/InterstitialAd.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/Mediation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/Mediation/MediationExtras.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/Mediation/MediationExtras.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/MobileAds.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/MobileAds.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/NativeExpressAdView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/NativeExpressAdView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/Reward.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/Reward.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/RewardBasedVideoAd.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Api/RewardBasedVideoAd.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Common.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Common/DummyClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Common/DummyClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Common/IAdLoaderClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Common/IAdLoaderClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Common/IBannerClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Common/IBannerClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Common/ICustomNativeTemplateClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Common/ICustomNativeTemplateClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Common/IInterstitialClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Common/IInterstitialClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Common/IMobileAdsClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Common/IMobileAdsClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Common/INativeExpressAdClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Common/INativeExpressAdClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Common/IRewardBasedVideoAdClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Common/IRewardBasedVideoAdClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Common/MobileAdsEventExecutor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Common/MobileAdsEventExecutor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Common/Utils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Common/Utils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Editor/GoogleMobileAdsDependencies.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Editor/GoogleMobileAdsDependencies.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/Android.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/Android/AdLoaderClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/Android/AdLoaderClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/Android/BannerClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/Android/BannerClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/Android/CustomNativeTemplateClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/Android/CustomNativeTemplateClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/Android/InterstitialClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/Android/InterstitialClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/Android/MobileAdsClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/Android/MobileAdsClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/Android/NativeExpressAdClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/Android/NativeExpressAdClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/Android/RewardBasedVideoAdClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/Android/RewardBasedVideoAdClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/Android/Utils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/Android/Utils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/GoogleMobileAdsClientFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/GoogleMobileAdsClientFactory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/iOS.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/iOS/AdLoaderClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/iOS/AdLoaderClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/iOS/BannerClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/iOS/BannerClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/iOS/CustomNativeTemplateClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/iOS/CustomNativeTemplateClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/iOS/Externs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/iOS/Externs.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/iOS/InterstitialClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/iOS/InterstitialClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/iOS/MobileAdsClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/iOS/MobileAdsClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/iOS/MonoPInvokeCallbackAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/iOS/MonoPInvokeCallbackAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/iOS/NativeExpressAdClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/iOS/NativeExpressAdClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/iOS/RewardBasedVideoAdClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/iOS/RewardBasedVideoAdClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/iOS/Utils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleMobileAds/Platforms/iOS/Utils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/PlayServicesResolver.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/PlayServicesResolver/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.61.0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.61.0.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/PlayServicesResolver/Editor/Google.JarResolver_v1.2.61.0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/PlayServicesResolver/Editor/Google.JarResolver_v1.2.61.0.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/PlayServicesResolver/Editor/Google.VersionHandler.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/PlayServicesResolver/Editor/Google.VersionHandler.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.61.0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.61.0.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/PlayServicesResolver/Editor/play-services-resolver_v1.2.61.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/PlayServicesResolver/Editor/play-services-resolver_v1.2.61.0.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUAdLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUAdLoader.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUAdLoader.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUAdLoader.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUAdNetworkExtras.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUAdNetworkExtras.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUBanner.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUBanner.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUBanner.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUBanner.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUInterface.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUInterface.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUInterstitial.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUInterstitial.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUInterstitial.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUInterstitial.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUNativeCustomTemplateAd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUNativeCustomTemplateAd.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUNativeCustomTemplateAd.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUNativeCustomTemplateAd.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUNativeExpressAd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUNativeExpressAd.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUNativeExpressAd.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUNativeExpressAd.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUObjectCache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUObjectCache.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUObjectCache.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUObjectCache.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUPluginUtil.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUPluginUtil.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUPluginUtil.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUPluginUtil.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADURequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADURequest.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADURequest.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADURequest.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADURewardBasedVideoAd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADURewardBasedVideoAd.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADURewardBasedVideoAd.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADURewardBasedVideoAd.m.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUTypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/GADUTypes.h.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main/UI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main/UI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tools/Ad.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tools/Ad.cs.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,60 +327,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Main/UI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="116" column="49" selection-start-line="116" selection-start-column="49" selection-end-line="116" selection-end-column="49" />
+            <state relative-caret-position="85">
+              <caret line="230" column="7" selection-start-line="230" selection-start-column="7" selection-end-line="230" selection-end-column="7" />
               <folding>
-                <marker date="1536318441479" expanded="false" signature="6:260" ph="..." />
-                <marker date="1536318441479" expanded="true" signature="277:11837" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="431:11835" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="450:526" ph="/* All the gameover items which are hidden and shown ... */" />
-                <marker date="1536318441479" expanded="true" signature="811:856" ph="/* Canvas components; ... */" />
-                <marker date="1536318441479" expanded="true" signature="923:965" ph="/* Menu components ... */" />
-                <marker date="1536318441479" expanded="true" signature="1018:1068" ph="/* The Gameover components ... */" />
-                <marker date="1536318441479" expanded="true" signature="1183:1216" ph="/* Audios ... */" />
-                <marker date="1536318441479" expanded="true" signature="1331:1660" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="1718:1780" ph="/* Shows Menu items and hides the rest ... */" />
-                <marker date="1536318441479" expanded="true" signature="1833:2685" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="2696:2762" ph="/* Hide Start Menu item and show play menu ... */" />
-                <marker date="1536318441479" expanded="true" signature="2815:3413" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="3106:3179" ph="/* todo: animation scale lors du saut ... */" />
-                <marker date="1536318441479" expanded="true" signature="3424:3521" ph="/* Update the Score Infos, Hide the play menu and shows the gameover menu ... */" />
-                <marker date="1536318441479" expanded="true" signature="3582:4182" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="4028:4172" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="4200:4240" ph="/* Restart scene ... */" />
-                <marker date="1536318441479" expanded="true" signature="4276:4392" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="4402:4440" ph="/* Switch shop ... */" />
-                <marker date="1536318441479" expanded="true" signature="4470:4547" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="4612:4650" ph="/* Share score ... */" />
-                <marker date="1536318441479" expanded="true" signature="4684:5816" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="5834:5884" ph="/* Redirects to Play store ... */" />
-                <marker date="1536318441479" expanded="true" signature="5917:6006" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="6039:6093" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="6151:6223" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="6242:6292" ph="/* Update Start menu infos ... */" />
-                <marker date="1536318441479" expanded="true" signature="6331:6452" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="6471:6526" ph="/* Updates Gameover score infos ... */" />
-                <marker date="1536318441479" expanded="true" signature="6566:7180" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="6634:6817" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="7249:7451" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="7494:7727" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="7778:7870" ph="/* Slide right to left ... */" />
-                <marker date="1536318441479" expanded="true" signature="7964:8712" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="8436:8623" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="8722:8836" ph="/* Slide in from bottom to top ... */" />
-                <marker date="1536318441479" expanded="true" signature="8929:9657" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="9381:9568" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="9667:9781" ph="/* Slide in from top to bottom ... */" />
-                <marker date="1536318441479" expanded="true" signature="9877:10604" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="10328:10515" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="10614:10684" ph="/* Blink with fade until component is disabled ... */" />
-                <marker date="1536318441479" expanded="true" signature="10747:11360" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="10959:11350" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="11055:11140" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="11179:11265" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="11370:11422" ph="/* Increase number animation ... */" />
-                <marker date="1536318441479" expanded="true" signature="11532:11821" ph="{...}" />
-                <marker date="1536318441479" expanded="true" signature="11666:11811" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="6:154" ph="..." />
+                <marker date="1536356094510" expanded="true" signature="171:11237" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="325:11235" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="344:420" ph="/* All the gameover items which are hidden and shown ... */" />
+                <marker date="1536356094510" expanded="true" signature="705:750" ph="/* Canvas components; ... */" />
+                <marker date="1536356094510" expanded="true" signature="817:859" ph="/* Menu components ... */" />
+                <marker date="1536356094510" expanded="true" signature="912:962" ph="/* The Gameover components ... */" />
+                <marker date="1536356094510" expanded="true" signature="1077:1110" ph="/* Audios ... */" />
+                <marker date="1536356094510" expanded="true" signature="1225:1451" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="1509:1571" ph="/* Shows Menu items and hides the rest ... */" />
+                <marker date="1536356094510" expanded="true" signature="1624:2476" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="2487:2553" ph="/* Hide Start Menu item and show play menu ... */" />
+                <marker date="1536356094510" expanded="true" signature="2606:3204" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="2897:2970" ph="/* todo: animation scale lors du saut ... */" />
+                <marker date="1536356094510" expanded="true" signature="3215:3312" ph="/* Update the Score Infos, Hide the play menu and shows the gameover menu ... */" />
+                <marker date="1536356094510" expanded="true" signature="3373:3973" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="3819:3963" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="3991:4031" ph="/* Restart scene ... */" />
+                <marker date="1536356094510" expanded="true" signature="4067:4183" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="4193:4231" ph="/* Switch shop ... */" />
+                <marker date="1536356094510" expanded="true" signature="4261:4338" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="4403:4441" ph="/* Share score ... */" />
+                <marker date="1536356094510" expanded="true" signature="4475:5607" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="5625:5675" ph="/* Redirects to Play store ... */" />
+                <marker date="1536356094510" expanded="true" signature="5708:5797" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="5855:5927" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="5946:5996" ph="/* Update Start menu infos ... */" />
+                <marker date="1536356094510" expanded="true" signature="6035:6156" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="6175:6230" ph="/* Updates Gameover score infos ... */" />
+                <marker date="1536356094510" expanded="true" signature="6270:6884" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="6338:6521" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="6935:7168" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="7178:7270" ph="/* Slide right to left ... */" />
+                <marker date="1536356094510" expanded="true" signature="7364:8112" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="7836:8023" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="8122:8236" ph="/* Slide in from bottom to top ... */" />
+                <marker date="1536356094510" expanded="true" signature="8329:9057" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="8781:8968" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="9067:9181" ph="/* Slide in from top to bottom ... */" />
+                <marker date="1536356094510" expanded="true" signature="9277:10004" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="9728:9915" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="10014:10084" ph="/* Blink with fade until component is disabled ... */" />
+                <marker date="1536356094510" expanded="true" signature="10147:10760" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="10359:10750" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="10455:10540" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="10579:10665" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="10770:10822" ph="/* Increase number animation ... */" />
+                <marker date="1536356094510" expanded="true" signature="10932:11221" ph="{...}" />
+                <marker date="1536356094510" expanded="true" signature="11066:11211" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -128,28 +387,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Main/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="148" column="9" selection-start-line="148" selection-start-column="9" selection-end-line="148" selection-end-column="9" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
               <folding>
-                <marker date="1536333657507" expanded="false" signature="6:129" ph="..." />
-                <marker date="1536333657507" expanded="true" signature="146:3639" ph="{...}" />
-                <marker date="1536333657507" expanded="true" signature="178:3637" ph="{...}" />
-                <marker date="1536333657507" expanded="true" signature="708:1230" ph="{...}" />
-                <marker date="1536333657507" expanded="true" signature="1303:2361" ph="{...}" />
-                <marker date="1536333657507" expanded="true" signature="1326:1394" ph="/* Horizontal calculations ... */" />
-                <marker date="1536333657507" expanded="true" signature="1441:1552" ph="{...}" />
-                <marker date="1536333657507" expanded="true" signature="1652:1755" ph="{...}" />
-                <marker date="1536333657507" expanded="true" signature="1802:1850" ph="/* Vertical calculations ... */" />
-                <marker date="1536333657507" expanded="true" signature="1896:2118" ph="{...}" />
-                <marker date="1536333657507" expanded="true" signature="2193:2215" ph="{...}" />
-                <marker date="1536333657507" expanded="true" signature="2449:2516" ph="{...}" />
-                <marker date="1536333657507" expanded="true" signature="2564:2626" ph="{...}" />
-                <marker date="1536333657507" expanded="true" signature="2682:2923" ph="{...}" />
-                <marker date="1536333657507" expanded="true" signature="2769:2894" ph="{...}" />
-                <marker date="1536333657507" expanded="true" signature="2946:3213" ph="{...}" />
-                <marker date="1536333657507" expanded="true" signature="3245:3300" ph="{...}" />
-                <marker date="1536333657507" expanded="true" signature="3351:3634" ph="{...}" />
-                <marker date="1536333657507" expanded="true" signature="3443:3576" ph="{...}" />
+                <marker date="1536356094556" expanded="true" signature="6:89" ph="..." />
+                <marker date="1536356094556" expanded="true" signature="106:3599" ph="{...}" />
+                <marker date="1536356094556" expanded="true" signature="138:3597" ph="{...}" />
+                <marker date="1536356094556" expanded="true" signature="668:1190" ph="{...}" />
+                <marker date="1536356094556" expanded="true" signature="1263:2321" ph="{...}" />
+                <marker date="1536356094556" expanded="true" signature="1286:1354" ph="/* Horizontal calculations ... */" />
+                <marker date="1536356094556" expanded="true" signature="1401:1512" ph="{...}" />
+                <marker date="1536356094556" expanded="true" signature="1612:1715" ph="{...}" />
+                <marker date="1536356094556" expanded="true" signature="1762:1810" ph="/* Vertical calculations ... */" />
+                <marker date="1536356094556" expanded="true" signature="1856:2078" ph="{...}" />
+                <marker date="1536356094556" expanded="true" signature="2153:2175" ph="{...}" />
+                <marker date="1536356094556" expanded="true" signature="2409:2476" ph="{...}" />
+                <marker date="1536356094556" expanded="true" signature="2524:2586" ph="{...}" />
+                <marker date="1536356094556" expanded="true" signature="2642:2883" ph="{...}" />
+                <marker date="1536356094556" expanded="true" signature="2729:2854" ph="{...}" />
+                <marker date="1536356094556" expanded="true" signature="2906:3173" ph="{...}" />
+                <marker date="1536356094556" expanded="true" signature="3205:3260" ph="{...}" />
+                <marker date="1536356094556" expanded="true" signature="3311:3594" ph="{...}" />
+                <marker date="1536356094556" expanded="true" signature="3403:3536" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -185,25 +444,17 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shop/ShopButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shop/UI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Editor/LOSFullScreenLightEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Editor/LOSLightBaseEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tools/Interval.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/08394C63-1CD4-4319-A0C1-98F4783B9769/04/0731e3b0/Animator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tools/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tools/Toaster.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Main/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tools/Ad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Main/Game.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Main/UI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Resources/Shaders/Basic.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/LOSFullScreenLight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Main/Item.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Main/ItemSpawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Main/EnemySpawn.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/LOSManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Main/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Editor/LOSRadialLightEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Editor/LOSMenu.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -243,9 +494,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Tools/Singleton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Main/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/LOSManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Main/UI.cs" />
         <option value="$PROJECT_DIR$/Assets/Animations/Player/IDLE.cs" />
         <option value="$PROJECT_DIR$/Assets/Animations/Player/Idle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Main/UI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Main/Player.cs" />
       </list>
     </option>
@@ -295,6 +546,7 @@
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -331,6 +583,14 @@
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Legolas" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Tools" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Legolas" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Assembly-CSharp-Editor-firstpass" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
@@ -345,30 +605,12 @@
               <item name="Assembly-CSharp-Editor-firstpass" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Plugins" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Legolas" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp-Editor-firstpass" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Plugins" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="2D-Light-of-Sight-Unity" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Legolas" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp-Editor-firstpass" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Plugins" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="2D-Light-of-Sight-Unity" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Editor" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -474,7 +716,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119054000" />
+    <option name="totallyTimeSpent" value="119869000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -489,7 +731,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2549168" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25869894" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -498,7 +740,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28861153" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32419354" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" x="1" y="478" width="1364" height="213" id="Terminal" internal_type="SLIDING" order="9" type="SLIDING" weight="0.2605178" />
@@ -694,7 +936,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Editor/LOSFullScreenLightEditor.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -715,69 +957,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Main/UI.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="116" column="49" selection-start-line="116" selection-start-column="49" selection-end-line="116" selection-end-column="49" />
-          <folding>
-            <marker date="1536318441479" expanded="false" signature="6:260" ph="..." />
-            <marker date="1536318441479" expanded="true" signature="277:11837" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="431:11835" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="450:526" ph="/* All the gameover items which are hidden and shown ... */" />
-            <marker date="1536318441479" expanded="true" signature="811:856" ph="/* Canvas components; ... */" />
-            <marker date="1536318441479" expanded="true" signature="923:965" ph="/* Menu components ... */" />
-            <marker date="1536318441479" expanded="true" signature="1018:1068" ph="/* The Gameover components ... */" />
-            <marker date="1536318441479" expanded="true" signature="1183:1216" ph="/* Audios ... */" />
-            <marker date="1536318441479" expanded="true" signature="1331:1660" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="1718:1780" ph="/* Shows Menu items and hides the rest ... */" />
-            <marker date="1536318441479" expanded="true" signature="1833:2685" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="2696:2762" ph="/* Hide Start Menu item and show play menu ... */" />
-            <marker date="1536318441479" expanded="true" signature="2815:3413" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="3106:3179" ph="/* todo: animation scale lors du saut ... */" />
-            <marker date="1536318441479" expanded="true" signature="3424:3521" ph="/* Update the Score Infos, Hide the play menu and shows the gameover menu ... */" />
-            <marker date="1536318441479" expanded="true" signature="3582:4182" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="4028:4172" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="4200:4240" ph="/* Restart scene ... */" />
-            <marker date="1536318441479" expanded="true" signature="4276:4392" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="4402:4440" ph="/* Switch shop ... */" />
-            <marker date="1536318441479" expanded="true" signature="4470:4547" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="4612:4650" ph="/* Share score ... */" />
-            <marker date="1536318441479" expanded="true" signature="4684:5816" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="5834:5884" ph="/* Redirects to Play store ... */" />
-            <marker date="1536318441479" expanded="true" signature="5917:6006" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="6039:6093" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="6151:6223" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="6242:6292" ph="/* Update Start menu infos ... */" />
-            <marker date="1536318441479" expanded="true" signature="6331:6452" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="6471:6526" ph="/* Updates Gameover score infos ... */" />
-            <marker date="1536318441479" expanded="true" signature="6566:7180" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="6634:6817" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="7249:7451" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="7494:7727" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="7778:7870" ph="/* Slide right to left ... */" />
-            <marker date="1536318441479" expanded="true" signature="7964:8712" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="8436:8623" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="8722:8836" ph="/* Slide in from bottom to top ... */" />
-            <marker date="1536318441479" expanded="true" signature="8929:9657" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="9381:9568" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="9667:9781" ph="/* Slide in from top to bottom ... */" />
-            <marker date="1536318441479" expanded="true" signature="9877:10604" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="10328:10515" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="10614:10684" ph="/* Blink with fade until component is disabled ... */" />
-            <marker date="1536318441479" expanded="true" signature="10747:11360" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="10959:11350" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="11055:11140" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="11179:11265" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="11370:11422" ph="/* Increase number animation ... */" />
-            <marker date="1536318441479" expanded="true" signature="11532:11821" ph="{...}" />
-            <marker date="1536318441479" expanded="true" signature="11666:11811" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Test.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Test.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/08394C63-1CD4-4319-A0C1-98F4783B9769/04/0731e3b0/Animator.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3247">
@@ -785,37 +965,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Animations/Player/Idle.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Animations/Player/Idle.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/LOSObjectBase.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        <state relative-caret-position="263">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Main/UI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="230" column="7" selection-start-line="230" selection-start-column="7" selection-end-line="230" selection-end-column="7" />
+          <folding>
+            <marker date="1536356094510" expanded="true" signature="6:154" ph="..." />
+            <marker date="1536356094510" expanded="true" signature="171:11237" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="325:11235" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="344:420" ph="/* All the gameover items which are hidden and shown ... */" />
+            <marker date="1536356094510" expanded="true" signature="705:750" ph="/* Canvas components; ... */" />
+            <marker date="1536356094510" expanded="true" signature="817:859" ph="/* Menu components ... */" />
+            <marker date="1536356094510" expanded="true" signature="912:962" ph="/* The Gameover components ... */" />
+            <marker date="1536356094510" expanded="true" signature="1077:1110" ph="/* Audios ... */" />
+            <marker date="1536356094510" expanded="true" signature="1225:1451" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="1509:1571" ph="/* Shows Menu items and hides the rest ... */" />
+            <marker date="1536356094510" expanded="true" signature="1624:2476" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="2487:2553" ph="/* Hide Start Menu item and show play menu ... */" />
+            <marker date="1536356094510" expanded="true" signature="2606:3204" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="2897:2970" ph="/* todo: animation scale lors du saut ... */" />
+            <marker date="1536356094510" expanded="true" signature="3215:3312" ph="/* Update the Score Infos, Hide the play menu and shows the gameover menu ... */" />
+            <marker date="1536356094510" expanded="true" signature="3373:3973" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="3819:3963" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="3991:4031" ph="/* Restart scene ... */" />
+            <marker date="1536356094510" expanded="true" signature="4067:4183" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="4193:4231" ph="/* Switch shop ... */" />
+            <marker date="1536356094510" expanded="true" signature="4261:4338" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="4403:4441" ph="/* Share score ... */" />
+            <marker date="1536356094510" expanded="true" signature="4475:5607" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="5625:5675" ph="/* Redirects to Play store ... */" />
+            <marker date="1536356094510" expanded="true" signature="5708:5797" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="5855:5927" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="5946:5996" ph="/* Update Start menu infos ... */" />
+            <marker date="1536356094510" expanded="true" signature="6035:6156" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="6175:6230" ph="/* Updates Gameover score infos ... */" />
+            <marker date="1536356094510" expanded="true" signature="6270:6884" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="6338:6521" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="6935:7168" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="7178:7270" ph="/* Slide right to left ... */" />
+            <marker date="1536356094510" expanded="true" signature="7364:8112" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="7836:8023" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="8122:8236" ph="/* Slide in from bottom to top ... */" />
+            <marker date="1536356094510" expanded="true" signature="8329:9057" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="8781:8968" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="9067:9181" ph="/* Slide in from top to bottom ... */" />
+            <marker date="1536356094510" expanded="true" signature="9277:10004" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="9728:9915" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="10014:10084" ph="/* Blink with fade until component is disabled ... */" />
+            <marker date="1536356094510" expanded="true" signature="10147:10760" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="10359:10750" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="10455:10540" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="10579:10665" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="10770:10822" ph="/* Increase number animation ... */" />
+            <marker date="1536356094510" expanded="true" signature="10932:11221" ph="{...}" />
+            <marker date="1536356094510" expanded="true" signature="11066:11211" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity/Core/LOSObstacle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Main/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="148" column="9" selection-start-line="148" selection-start-column="9" selection-end-line="148" selection-end-column="9" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
           <folding>
-            <marker date="1536333657507" expanded="false" signature="6:129" ph="..." />
-            <marker date="1536333657507" expanded="true" signature="146:3639" ph="{...}" />
-            <marker date="1536333657507" expanded="true" signature="178:3637" ph="{...}" />
-            <marker date="1536333657507" expanded="true" signature="708:1230" ph="{...}" />
-            <marker date="1536333657507" expanded="true" signature="1303:2361" ph="{...}" />
-            <marker date="1536333657507" expanded="true" signature="1326:1394" ph="/* Horizontal calculations ... */" />
-            <marker date="1536333657507" expanded="true" signature="1441:1552" ph="{...}" />
-            <marker date="1536333657507" expanded="true" signature="1652:1755" ph="{...}" />
-            <marker date="1536333657507" expanded="true" signature="1802:1850" ph="/* Vertical calculations ... */" />
-            <marker date="1536333657507" expanded="true" signature="1896:2118" ph="{...}" />
-            <marker date="1536333657507" expanded="true" signature="2193:2215" ph="{...}" />
-            <marker date="1536333657507" expanded="true" signature="2449:2516" ph="{...}" />
-            <marker date="1536333657507" expanded="true" signature="2564:2626" ph="{...}" />
-            <marker date="1536333657507" expanded="true" signature="2682:2923" ph="{...}" />
-            <marker date="1536333657507" expanded="true" signature="2769:2894" ph="{...}" />
-            <marker date="1536333657507" expanded="true" signature="2946:3213" ph="{...}" />
-            <marker date="1536333657507" expanded="true" signature="3245:3300" ph="{...}" />
-            <marker date="1536333657507" expanded="true" signature="3351:3634" ph="{...}" />
-            <marker date="1536333657507" expanded="true" signature="3443:3576" ph="{...}" />
+            <marker date="1536356094556" expanded="true" signature="6:89" ph="..." />
+            <marker date="1536356094556" expanded="true" signature="106:3599" ph="{...}" />
+            <marker date="1536356094556" expanded="true" signature="138:3597" ph="{...}" />
+            <marker date="1536356094556" expanded="true" signature="668:1190" ph="{...}" />
+            <marker date="1536356094556" expanded="true" signature="1263:2321" ph="{...}" />
+            <marker date="1536356094556" expanded="true" signature="1286:1354" ph="/* Horizontal calculations ... */" />
+            <marker date="1536356094556" expanded="true" signature="1401:1512" ph="{...}" />
+            <marker date="1536356094556" expanded="true" signature="1612:1715" ph="{...}" />
+            <marker date="1536356094556" expanded="true" signature="1762:1810" ph="/* Vertical calculations ... */" />
+            <marker date="1536356094556" expanded="true" signature="1856:2078" ph="{...}" />
+            <marker date="1536356094556" expanded="true" signature="2153:2175" ph="{...}" />
+            <marker date="1536356094556" expanded="true" signature="2409:2476" ph="{...}" />
+            <marker date="1536356094556" expanded="true" signature="2524:2586" ph="{...}" />
+            <marker date="1536356094556" expanded="true" signature="2642:2883" ph="{...}" />
+            <marker date="1536356094556" expanded="true" signature="2729:2854" ph="{...}" />
+            <marker date="1536356094556" expanded="true" signature="2906:3173" ph="{...}" />
+            <marker date="1536356094556" expanded="true" signature="3205:3260" ph="{...}" />
+            <marker date="1536356094556" expanded="true" signature="3311:3594" ph="{...}" />
+            <marker date="1536356094556" expanded="true" signature="3403:3536" ph="{...}" />
           </folding>
         </state>
       </provider>
