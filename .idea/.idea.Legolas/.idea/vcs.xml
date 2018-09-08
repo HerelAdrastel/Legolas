@@ -2,7 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Assets/Plugins/2D-Light-of-Sight-Unity" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Assets/Plugins/Unity2DShadows" vcs="Git" />
   </component>
 </project>

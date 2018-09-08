@@ -10,6 +10,7 @@ namespace Main {
 		public float Velocity;
 		public float Force;
 		public int PointMultiplier;
+		public float ForceOffset;
 		public Text ScoreText;
 	
 		public ParticleSystem PlayerDeath;
@@ -89,6 +90,7 @@ namespace Main {
 
 
 			_rigidbody.velocity = new Vector2 ((float) _direction * Velocity, _rigidbody.velocity.y);
+
 		
 			// Jump
 			if (IsTouched())
@@ -121,8 +123,10 @@ namespace Main {
 			_rigidbody.velocity = new Vector2 (_rigidbody.velocity.x, 0);
 		
 			// Jump
-			_rigidbody.AddForce(Vector2.up * Force, ForceMode2D.Impulse);
-			
+			//_rigidbody.AddForce(Vector2.up * Force, ForceMode2D.Impulse);
+			var applyForceAt = new Vector2(transform.position.x + -1 * ForceOffset * (float) _direction, transform.position.y);
+			_rigidbody.angularVelocity = 0;
+			_rigidbody.AddForceAtPosition(Vector2.up * Force, applyForceAt, ForceMode2D.Impulse);
 			// Jump noise
 			AudioSource.PlayClipAtPoint(JumpSound, transform.position);
 		}

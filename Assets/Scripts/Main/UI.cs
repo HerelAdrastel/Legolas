@@ -83,13 +83,14 @@ namespace Main {
                 item.SetActive(false);
 
             // Check the length before animation
-            if (MenuItems.Length != 4)
-                throw new Exception("MenuItems must contain 3 elements");
+            if (MenuItems.Length != 5)
+                throw new Exception("MenuItems must contain 5 elements");
 
             StartCoroutine(SlideBottom(MenuItems[0], 0.75f, 0));
             StartCoroutine(Blink(MenuItems[1]));
             StartCoroutine(SlideTop(MenuItems[2], 0.75f, 0));
             StartCoroutine(SlideTop(MenuItems[3], 0.75f, 0));
+            StartCoroutine(SlideTop(MenuItems[4], 0.75f, 0));
         }
 
 
@@ -158,8 +159,6 @@ namespace Main {
             SceneManager.LoadScene(1);
         }
 
-
-        // todo ; ça ne marche pas, resoudre le bug !
         /**
          * Share score
          */

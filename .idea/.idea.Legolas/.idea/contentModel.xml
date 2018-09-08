@@ -68,6 +68,7 @@
           <e p="Main" t="Include">
             <e p="Enemy.cs" t="Include" />
             <e p="EnemySpawn.cs" t="Include" />
+            <e p="FollowPlayer.cs" t="Include" />
             <e p="Game.cs" t="Include" />
             <e p="Item.cs" t="Include" />
             <e p="ItemSpawn.cs" t="Include" />
