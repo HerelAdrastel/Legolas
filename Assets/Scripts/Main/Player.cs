@@ -21,7 +21,8 @@ namespace Main {
 
 
 		private Rigidbody2D _rigidbody;
-		private CircleCollider2D _collider;
+		private CapsuleCollider2D _collider;
+		private Animator _animator;
 	
 		private enum Direction{Left = -1, Right = 1}
 
@@ -33,7 +34,8 @@ namespace Main {
 		// Use this for initialization
 		public override void Start () {
 			_rigidbody = GetComponent<Rigidbody2D>();
-			_collider = GetComponent<CircleCollider2D>();
+			_collider = GetComponent<CapsuleCollider2D>();
+			_animator = GetComponent<Animator>();
 
 			_direction = Random.value < 0.5 ? Direction.Left : Direction.Right;
 			_previousDirection = _direction;
@@ -60,7 +62,7 @@ namespace Main {
 				_direction = Direction.Right;
 			
 				if(_previousDirection != _direction)
-					IncreaseScore();
+					OnBounce();
 			
 			} 
 		
@@ -68,7 +70,7 @@ namespace Main {
 			else if (transform.position.x > Right - _radius) {
 				_direction = Direction.Left;
 				if(_previousDirection != _direction) 
-					IncreaseScore();
+					OnBounce();
 			}
 
 			_previousDirection = _direction;
@@ -131,9 +133,13 @@ namespace Main {
 			AudioSource.PlayClipAtPoint(JumpSound, transform.position);
 		}
 
-		public void IncreaseScore() {
+		public void OnBounce() {
+			// Increase score
 			Score++;
 			ScoreText.text = Score.ToString();
+			
+			// Trigger bounce animation
+			_animator.SetBool("Bounce", true);
 		}
 
 		public void OnTriggerEnter2D(Collider2D other) {
